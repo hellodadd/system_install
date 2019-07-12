@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Αποστολή</string>
     <string name="menuSaveToSd">Αποθήκευση στην κάρτα SD</string>
-    <string name="systemtool_not_active">Η τελευταία έκδοση του SystemTool δεν είναι ενεργή προς το παρόν. Εγκαταστήσατε το Framework και επανεκκινήσατε;</string>
+    <string name="sysoperation_not_active">Η τελευταία έκδοση του SysOperation δεν είναι ενεργή προς το παρόν. Εγκαταστήσατε το Framework και επανεκκινήσατε;</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Μία αναβάθμιση για το SystemTool Framework είναι διαθέσιμη.</string>
+    <string name="welcome_framework_update_available">Μία αναβάθμιση για το SysOperation Framework είναι διαθέσιμη.</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">Το %s πρέπει να γίνει flash αυτόματα μόλις πατήσετε "OK".</string>
     <string name="reboot_confirmation">Θέλετε να κάνετε reboot τώρα;</string>
     <string name="install_warning_title">Προσοχή!</string>
-    <string name="install_warning">Σε μερικές περιπτώσεις η συσκευή σας μπορεί να μην ξεκινάει μετά την εγκατάσταση του SystemTool.\n\nΑν δεν έχετε ακούσει ποτέ πριν για \"soft brick\" και \"bootloop\" ή αν δεν ξέρετε πώς να επαναφέρετε μια τέτοια κατάσταση, <b>ΜΗΝ</b> εγκαταστήσετε το SystemTool!\n\nΣε αυτήν την περίπτωση, προτείνεται να έχετε ένα πρόσφατο backup.</string>
+    <string name="install_warning">Σε μερικές περιπτώσεις η συσκευή σας μπορεί να μην ξεκινάει μετά την εγκατάσταση του SysOperation.\n\nΑν δεν έχετε ακούσει ποτέ πριν για \"soft brick\" και \"bootloop\" ή αν δεν ξέρετε πώς να επαναφέρετε μια τέτοια κατάσταση, <b>ΜΗΝ</b> εγκαταστήσετε το SysOperation!\n\nΣε αυτήν την περίπτωση, προτείνεται να έχετε ένα πρόσφατο backup.</string>
     <string name="dont_show_again">Να μην ξαναεμφανιστεί</string>
-    <string name="install_known_issue">Φαίνεται να υπάρχει ένα πρόβλημα (\"%s\") με την ROM σας. Η εγκατάσταση του SystemTool μπορεί να μην δουλέψει ή να οδηγήσει σε σοβαρά προβλήματα. Κάντε κλικ εδώ για λεπτομέρειες σχετικά με το πρόβλημα.</string>
+    <string name="install_known_issue">Φαίνεται να υπάρχει ένα πρόβλημα (\"%s\") με την ROM σας. Η εγκατάσταση του SysOperation μπορεί να μην δουλέψει ή να οδηγήσει σε σοβαρά προβλήματα. Κάντε κλικ εδώ για λεπτομέρειες σχετικά με το πρόβλημα.</string>
 
     <!-- File operations -->
     <string name="root_failed">Αποτυχία απόκτησης root access.\n\nΣιγουρέψτε ότι η συσκευή σας είναι rooted σωστά και δεν έχετε μπλοκάρει το τις εντολές shell.</string>
@@ -35,19 +35,19 @@
     <string name="file_done">Έτοιμο! Οι αλλαγές θα ενεργοποιηθούν στο επόμενο reboot.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Το SystemTool module δεν έχει ενεργοποιηθεί ακόμα</string>
+    <string name="module_is_not_activated_yet">Το SysOperation module δεν έχει ενεργοποιηθεί ακόμα</string>
     <string name="module_is_not_activated_yet_detailed">Το %s εγκαταστάθηκε, αλλά δεν έχει ενεργοποιηθεί ακόμα.</string>
     <string name="activate_and_reboot">Ενεργοποίηση και reboot</string>
-    <string name="module_activated">Το SystemTool module ενεργοποιήθηκε</string>
+    <string name="module_activated">Το SysOperation module ενεργοποιήθηκε</string>
     <string name="module_empty_description">(δεν υπάρχει περιγραφεί)</string>
     <string name="module_no_ui">Αυτό το module δεν διαθέτει γραφικό περιβάλλον</string>
-    <string name="no_systemtool_modules_found">Δεν βρέθηκαν SystemTool modules!</string>
-    <string name="systemtool_module_list_updated">Η λίστα των SystemTool modules ανανεώθηκε\nΟι αλλαγές θα γίνουν ενεργές στο reboot</string>
-    <string name="systemtool_module_updated_notification_title">Αναβάθμιση SystemTool module</string>
-    <string name="systemtool_module_updated_notification">Reboot για ενεργοποίηση ρυθμίσεων</string>
-    <string name="warning_systemtool_min_version">Αυτό το module απαιτεί μία νεότερη έκδοση του SystemTool (%d) και γι\' αυτό δεν μπορεί να ενεργοποιηθεί.</string>
-    <string name="no_min_version_specified">Αυτό το module δεν καθορίζει την έκδοση του SystemTool που χρειάζεται.</string>
-    <string name="warning_min_version_too_low">Αυτό το module δημιουργήθηκε για την έκδοση %1$d του SystemTool, αλλά λόγω ασύμβατων αλλαγών στην έκδοση %2$d, έχει απενεργοποιηθεί.</string>
+    <string name="no_sysoperation_modules_found">Δεν βρέθηκαν SysOperation modules!</string>
+    <string name="sysoperation_module_list_updated">Η λίστα των SysOperation modules ανανεώθηκε\nΟι αλλαγές θα γίνουν ενεργές στο reboot</string>
+    <string name="sysoperation_module_updated_notification_title">Αναβάθμιση SysOperation module</string>
+    <string name="sysoperation_module_updated_notification">Reboot για ενεργοποίηση ρυθμίσεων</string>
+    <string name="warning_sysoperation_min_version">Αυτό το module απαιτεί μία νεότερη έκδοση του SysOperation (%d) και γι\' αυτό δεν μπορεί να ενεργοποιηθεί.</string>
+    <string name="no_min_version_specified">Αυτό το module δεν καθορίζει την έκδοση του SysOperation που χρειάζεται.</string>
+    <string name="warning_min_version_too_low">Αυτό το module δημιουργήθηκε για την έκδοση %1$d του SysOperation, αλλά λόγω ασύμβατων αλλαγών στην έκδοση %2$d, έχει απενεργοποιηθεί.</string>
     <string name="module_launch">Launch UI</string>
     <string name="module_download_updates">Κατέβασμα/Αναβαθμίσεις</string>
     <string name="module_support">Υποστήριξη</string>

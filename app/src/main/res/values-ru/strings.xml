@@ -4,14 +4,14 @@
     <!-- General/various strings -->
     <string name="menuSend">Отправить</string>
     <string name="menuSaveToSd">Сохранить на SD-карту</string>
-    <string name="systemtool_not_active">Последняя версия SystemTool в настоящее время не активна. Уверены, что Вы установили Framework и перезагрузили устройство?</string>
+    <string name="sysoperation_not_active">Последняя версия SysOperation в настоящее время не активна. Уверены, что Вы установили Framework и перезагрузили устройство?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Доступно обновление для SystemTool Framework (%s).</string>
+    <string name="welcome_framework_update_available">Доступно обновление для SysOperation Framework (%s).</string>
     <string name="modules_updates_available">Доступны обновления модуля</string>
 
     <!-- Navigation drawer items -->
-    <string name="nav_item_install">SystemTool Framework</string>
+    <string name="nav_item_install">SysOperation Framework</string>
     <string name="nav_item_modules">Установленные модули</string>
     <string name="nav_item_download">Поиск модулей</string>
     <string name="nav_item_settings">Настройки</string>
@@ -31,15 +31,15 @@
     <string name="auto_flash_note">%s будет прошита автоматически при нажатии "OK".</string>
     <string name="reboot_confirmation">Хотите перезагрузить устройство сейчас?</string>
     <string name="install_warning_title">Будьте осторожны!</string>
-    <string name="install_warning">В некоторых случаях, устройство может не загрузиться после установки SystemTool.\n\nЕсли вы не знаете что такое \"soft brick\" и \"bootloop\". И не знаете как восстановить систему, <b>НЕ</b> устанавливайте SystemTool!\n\nВ любом случае, делайте резервную копию системы."</string>
+    <string name="install_warning">В некоторых случаях, устройство может не загрузиться после установки SysOperation.\n\nЕсли вы не знаете что такое \"soft brick\" и \"bootloop\". И не знаете как восстановить систему, <b>НЕ</b> устанавливайте SysOperation!\n\nВ любом случае, делайте резервную копию системы."</string>
     <string name="dont_show_again">Больше не показывать сообщение</string>
-    <string name="install_known_issue">Похоже, присутствует известная несовместимость (\"%s\") с Вашей прошивкой. Пожалуй, Вам не стоит устанавливать SystemTool. Нажмите здесь для дополнительной информации.</string>
-    <string name="framework_active">SystemTool Framework версии %s активирован!</string>
-    <string name="framework_not_active">SystemTool Framework версия %s установлена, но не активирована. Пожалуйста проверьте логи.</string>
-    <string name="framework_not_installed">SystemTool Framework не установлен.</string>
-    <string name="status">Состояние SystemTool</string>
-    <string name="systemtool_on_next_reboot">SystemTool Framework будет включен после перезагрузки</string>
-    <string name="systemtool_off_next_reboot">SystemTool Framework будет выключен после перезагрузки</string>
+    <string name="install_known_issue">Похоже, присутствует известная несовместимость (\"%s\") с Вашей прошивкой. Пожалуй, Вам не стоит устанавливать SysOperation. Нажмите здесь для дополнительной информации.</string>
+    <string name="framework_active">SysOperation Framework версии %s активирован!</string>
+    <string name="framework_not_active">SysOperation Framework версия %s установлена, но не активирована. Пожалуйста проверьте логи.</string>
+    <string name="framework_not_installed">SysOperation Framework не установлен.</string>
+    <string name="status">Состояние SysOperation</string>
+    <string name="sysoperation_on_next_reboot">SysOperation Framework будет включен после перезагрузки</string>
+    <string name="sysoperation_off_next_reboot">SysOperation Framework будет выключен после перезагрузки</string>
 
     <!-- File operations -->
     <string name="root_failed">"Сбой получения прав рут-доступа.\n\nУбедитесь, что на устройстве есть рут и команды оболочки не блокируются."</string>
@@ -52,19 +52,19 @@
     <string name="file_done">Готово! Изменения станут активными после перезагрузки.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool модуль еще не активирован</string>
+    <string name="module_is_not_activated_yet">SysOperation модуль еще не активирован</string>
     <string name="module_is_not_activated_yet_detailed">%s был установлен но не активирован.</string>
     <string name="activate_and_reboot">Активировать и перезагрузить</string>
-    <string name="module_activated">Модуль SystemTool был активирован</string>
+    <string name="module_activated">Модуль SysOperation был активирован</string>
     <string name="module_empty_description">(описание отсутствует)</string>
     <string name="module_no_ui">Этот модуль не содержит пользовательского интерфейса</string>
-    <string name="no_systemtool_modules_found">Модули SystemTool не найдены!</string>
-    <string name="systemtool_module_list_updated">Список SystemTool модулей обновлен\nИзменения вступят в силу после перезагрузки</string>
-    <string name="systemtool_module_updated_notification_title">Модуль SystemTool обновлен</string>
-    <string name="systemtool_module_updated_notification">Перезагрузите устройство</string>
-    <string name="warning_systemtool_min_version">Этот модуль требует более новой версии SystemTool (%d) и не может быть активирован.</string>
-    <string name="no_min_version_specified">Этот модуль не указал версию SystemTool, в которой он нуждается.</string>
-    <string name="warning_min_version_too_low">Этот модуль был создан для SystemTool версии %1$d, но из-за несовместимых изменений в версии %2$d, он был отключен.</string>
+    <string name="no_sysoperation_modules_found">Модули SysOperation не найдены!</string>
+    <string name="sysoperation_module_list_updated">Список SysOperation модулей обновлен\nИзменения вступят в силу после перезагрузки</string>
+    <string name="sysoperation_module_updated_notification_title">Модуль SysOperation обновлен</string>
+    <string name="sysoperation_module_updated_notification">Перезагрузите устройство</string>
+    <string name="warning_sysoperation_min_version">Этот модуль требует более новой версии SysOperation (%d) и не может быть активирован.</string>
+    <string name="no_min_version_specified">Этот модуль не указал версию SysOperation, в которой он нуждается.</string>
+    <string name="warning_min_version_too_low">Этот модуль был создан для SysOperation версии %1$d, но из-за несовместимых изменений в версии %2$d, он был отключен.</string>
     <string name="module_launch">Запустить модуль</string>
     <string name="module_download_updates">Загрузить/Обновить</string>
     <string name="module_support">Поддержка</string>
@@ -94,7 +94,7 @@
     <string name="download_sorting_status">Сортировать по статусу</string>
     <string name="download_sorting_updated">Сортировать по последнему обновлению</string>
     <string name="download_sorting_created">Сортировать по дате создания</string>
-    <string name="download_section_framework">SystemTool Frameworkk</string>
+    <string name="download_section_framework">SysOperation Frameworkk</string>
     <string name="download_section_update_available">Доступно обновление</string>
     <string name="download_section_installed">Установлен</string>
     <string name="download_section_not_installed">Не установлен</string>
@@ -120,8 +120,8 @@
     <string name="settings_default_view">Вид по умолчанию при запуске</string>
     <string name="open_drawer_summ">Автоматически открывать боковое меню при запуске</string>
     <string name="open_drawer">Автоматически открыть боковое меню</string>
-    <string name="skip_systemtoolminversion_check">Пропускать проверку \'SystemTool мин. версии\'</string>
-    <string name="skip_systemtoolminversion_check_summ">Пропустить \'SystemTool мин. версии\' проверку модулей</string>
+    <string name="skip_sysoperationminversion_check">Пропускать проверку \'SysOperation мин. версии\'</string>
+    <string name="skip_sysoperationminversion_check_summ">Пропустить \'SysOperation мин. версии\' проверку модулей</string>
     <string name="chrome_custom_tabs">Chrome Custom Tabs</string>
     <string name="chrome_custom_tabs_summ">Открытие ссылок внутри приложения</string>
     <string name="notify_module_update">Включить уведомления об обновлении модулей</string>
@@ -129,10 +129,10 @@
     <!-- Support tab -->
     <string name="support_modules_label">Поддержка модулей</string>
     <string name="support_modules_description">Долгое нажатие на модуле, в меню \"Установленные модули\" и выберите \"%1$s\".</string>
-    <string name="support_framework_label">Поддержка SystemTool Framework/Installer</string>
+    <string name="support_framework_label">Поддержка SysOperation Framework/Installer</string>
     <string name="support_faq_label">Справка/известные проблемы</string>
     <string name="support_donate_label">Пожертвовать</string>
-    <string name="support_donate_description">Если вы хотите отблагодарить за SystemTool, вы можете сделать пожертвование для rovo89 здесь:</string>
+    <string name="support_donate_description">Если вы хотите отблагодарить за SysOperation, вы можете сделать пожертвование для rovo89 здесь:</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">Невозможно записать логи на SD-карту:</string>

@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">傳送</string>
     <string name="menuSaveToSd">傳送到 SD 卡</string>
-    <string name="systemtool_not_active">最新版本的 SystemTool 目前尚未啟用。您是否已安裝框架並重新啟動？</string>
+    <string name="sysoperation_not_active">最新版本的 SysOperation 目前尚未啟用。您是否已安裝框架並重新啟動？</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">SystemTool 框架有更新可用。</string>
+    <string name="welcome_framework_update_available">SysOperation 框架有更新可用。</string>
     <string name="modules_updates_available">模組可供更新</string>
 
     <!-- Navigation drawer items -->
@@ -31,15 +31,15 @@
     <string name="auto_flash_note">當您按下 OK 後，%s 將會自動被刷入裝置。</string>
     <string name="reboot_confirmation">您要現在重新啟動嗎？</string>
     <string name="install_warning_title">小心！</string>
-    <string name="install_warning">某些情況下，您的裝置可能會在安裝 SystemTool 後無法啓動。\n\n如果您從未聽說「軟變磚」或「無限重新啟動」，或者您不知道如何從這種情況恢復，請"<b>不要</b>"安裝 SystemTool ！\n\n無論如何，強烈建議準備好最近的備份。</string>
+    <string name="install_warning">某些情況下，您的裝置可能會在安裝 SysOperation 後無法啓動。\n\n如果您從未聽說「軟變磚」或「無限重新啟動」，或者您不知道如何從這種情況恢復，請"<b>不要</b>"安裝 SysOperation ！\n\n無論如何，強烈建議準備好最近的備份。</string>
     <string name="dont_show_again">不要再顯示這個</string>
-    <string name="install_known_issue">SystemTool 與您的 ROM 似乎存在已知的問題 (\"%s\")。安裝 SystemTool 可能無法正常工作或是導致更嚴重的問題。點擊這裡了解詳情。</string>
-    <string name="framework_active">SystemTool 框架 %s 版已啟用。</string>
-    <string name="framework_not_active">SystemTool 框架 %s 版已安裝，但尚未啟用。 請查看日誌以了解細節。</string>
-    <string name="framework_not_installed">SystemTool 框架未安裝。</string>
-    <string name="status">SystemTool 狀態</string>
-    <string name="systemtool_on_next_reboot">SystemTool 框架將在下次重新啟動裝置後啟用</string>
-    <string name="systemtool_off_next_reboot">SystemTool 框架將在下次重新啟動裝置後停用</string>
+    <string name="install_known_issue">SysOperation 與您的 ROM 似乎存在已知的問題 (\"%s\")。安裝 SysOperation 可能無法正常工作或是導致更嚴重的問題。點擊這裡了解詳情。</string>
+    <string name="framework_active">SysOperation 框架 %s 版已啟用。</string>
+    <string name="framework_not_active">SysOperation 框架 %s 版已安裝，但尚未啟用。 請查看日誌以了解細節。</string>
+    <string name="framework_not_installed">SysOperation 框架未安裝。</string>
+    <string name="status">SysOperation 狀態</string>
+    <string name="sysoperation_on_next_reboot">SysOperation 框架將在下次重新啟動裝置後啟用</string>
+    <string name="sysoperation_off_next_reboot">SysOperation 框架將在下次重新啟動裝置後停用</string>
 
     <!-- File operations -->
     <string name="root_failed">無法取得 root 權限。\n\n請確認您的裝置已正確的 root 以及您沒有阻擋 shell 指令。</string>
@@ -52,19 +52,19 @@
     <string name="file_done">完成！修改將於重新啟動之後生效。</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool模組未啟動</string>
+    <string name="module_is_not_activated_yet">SysOperation模組未啟動</string>
     <string name="module_is_not_activated_yet_detailed">已安裝 %s，但尚未啟用。</string>
     <string name="activate_and_reboot">啟用並重新啟動</string>
-    <string name="module_activated">SystemTool 模組已被啟用</string>
+    <string name="module_activated">SysOperation 模組已被啟用</string>
     <string name="module_empty_description">(未提供描述)</string>
     <string name="module_no_ui">該模組未提供使用者介面</string>
-    <string name="no_systemtool_modules_found">未找到 SystemTool 模組！</string>
-    <string name="systemtool_module_list_updated">SystemTool 模組清單已更新\n更改將於重新啟動後生效</string>
-    <string name="systemtool_module_updated_notification_title">SystemTool 模組已更新</string>
-    <string name="systemtool_module_updated_notification">重新啟動以套用變更。</string>
-    <string name="warning_systemtool_min_version">該模組需要較新版本的 SystemTool (%d)，因此無法啟用。</string>
-    <string name="no_min_version_specified">該模組未指定 SystemTool 版本需求。</string>
-    <string name="warning_min_version_too_low">該模組在 SystemTool %1$d 版本下建立，但因為不相容 %2$d 版本中的變化內容，它已被停用。</string>
+    <string name="no_sysoperation_modules_found">未找到 SysOperation 模組！</string>
+    <string name="sysoperation_module_list_updated">SysOperation 模組清單已更新\n更改將於重新啟動後生效</string>
+    <string name="sysoperation_module_updated_notification_title">SysOperation 模組已更新</string>
+    <string name="sysoperation_module_updated_notification">重新啟動以套用變更。</string>
+    <string name="warning_sysoperation_min_version">該模組需要較新版本的 SysOperation (%d)，因此無法啟用。</string>
+    <string name="no_min_version_specified">該模組未指定 SysOperation 版本需求。</string>
+    <string name="warning_min_version_too_low">該模組在 SysOperation %1$d 版本下建立，但因為不相容 %2$d 版本中的變化內容，它已被停用。</string>
     <string name="module_launch">執行界面</string>
     <string name="module_download_updates">下載/更新</string>
     <string name="module_support">支援</string>
@@ -120,8 +120,8 @@
     <string name="settings_default_view">預設瀏覽</string>
     <string name="open_drawer_summ">啟動時自動開啟抽屜式導航欄</string>
     <string name="open_drawer">自動開啟抽屜式導航欄</string>
-    <string name="skip_systemtoolminversion_check">略過 \'SystemTool 最低版本\' 檢查</string>
-    <string name="skip_systemtoolminversion_check_summ">略過模組 \'SystemTool 最低版本\' 檢查</string>
+    <string name="skip_sysoperationminversion_check">略過 \'SysOperation 最低版本\' 檢查</string>
+    <string name="skip_sysoperationminversion_check_summ">略過模組 \'SysOperation 最低版本\' 檢查</string>
     <string name="chrome_custom_tabs">Chrome 式自訂分頁</string>
     <string name="chrome_custom_tabs_summ">於內置瀏覽器開啟連結</string>
     <string name="notify_module_update">啟用模組更新通知</string>
@@ -132,7 +132,7 @@
     <string name="support_framework_label">框架/Installer 支援</string>
     <string name="support_faq_label">常見/已知問題</string>
     <string name="support_donate_label">贊助</string>
-    <string name="support_donate_description">若您想對 SystemTool 表達感謝，在此贊助 rovo89。</string>
+    <string name="support_donate_description">若您想對 SysOperation 表達感謝，在此贊助 rovo89。</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">無法將日誌寫入 SD 卡：</string>

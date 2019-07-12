@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Надіслати</string>
     <string name="menuSaveToSd">Зберегти на SD-картку</string>
-    <string name="systemtool_not_active">Найсвіжіша версія SystemTool наразі не активована. Ви впевнені, що встановили Фреймворк та перезавантажили пристрій?</string>
+    <string name="sysoperation_not_active">Найсвіжіша версія SysOperation наразі не активована. Ви впевнені, що встановили Фреймворк та перезавантажили пристрій?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Є оновлення для SystemTool Framework (%s).</string>
+    <string name="welcome_framework_update_available">Є оновлення для SysOperation Framework (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">%s буде прошито автоматично після натискання на "OK".</string>
     <string name="reboot_confirmation">Чи Ви бажаєте зараз перезавантажитися?</string>
     <string name="install_warning_title">Обережно!</string>
-    <string name="install_warning">В деяких випадках, після встановлення SystemTool, Ваш пристрій може більше не запуститися.\n\nЯкщо Ви нічого не чули про \"soft brick\" та \"bootloop\" або якщо Ви не знаєте як відновитися з такого стану, будь-ласка, <b>НЕ</b> встановлюйте SystemTool!\n\nВ будь-якому разі, наявність свіжої резервної копії є необхідністю.</string>
+    <string name="install_warning">В деяких випадках, після встановлення SysOperation, Ваш пристрій може більше не запуститися.\n\nЯкщо Ви нічого не чули про \"soft brick\" та \"bootloop\" або якщо Ви не знаєте як відновитися з такого стану, будь-ласка, <b>НЕ</b> встановлюйте SysOperation!\n\nВ будь-якому разі, наявність свіжої резервної копії є необхідністю.</string>
     <string name="dont_show_again">Більше не показувати</string>
-    <string name="install_known_issue">Схоже, що у Вашій прощивці є відома проблема (\"%s\"). Встановлений SystemTool може не працювати або навіть призвести до проблем. Для більш детальної інформації натисніть тут.</string>
+    <string name="install_known_issue">Схоже, що у Вашій прощивці є відома проблема (\"%s\"). Встановлений SysOperation може не працювати або навіть призвести до проблем. Для більш детальної інформації натисніть тут.</string>
 
     <!-- File operations -->
     <string name="root_failed">Помилка отримання прав суперкористувача.\n\nПереконайтеся, що Ваш пристрій рутований (має бути доступний суперкористувач) і що Ви не заблокували виконання shell-команд.</string>
@@ -35,19 +35,19 @@
     <string name="file_done">Виконано! Зміни стануть активними після перезавантаження.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Модуль SystemTool ще не активовано</string>
+    <string name="module_is_not_activated_yet">Модуль SysOperation ще не активовано</string>
     <string name="module_is_not_activated_yet_detailed">%s було встановлено, але ще не активовано.</string>
     <string name="activate_and_reboot">Активувати та перезавантажити</string>
-    <string name="module_activated">Модуль SystemTool було активовано</string>
+    <string name="module_activated">Модуль SysOperation було активовано</string>
     <string name="module_empty_description">(опис не надано)</string>
     <string name="module_no_ui">Цей мдуль не має користувацького інтерфейсу</string>
-    <string name="no_systemtool_modules_found">Жодного модулю SystemTool не знайдено!</string>
-    <string name="systemtool_module_list_updated">Перелік модулів SystemTool було оновлено\nЗміни активуються після перезавантаження</string>
-    <string name="systemtool_module_updated_notification_title">Модуль SystemTool оновлено</string>
-    <string name="systemtool_module_updated_notification">Для активації змін перезавантажтеся</string>
-    <string name="warning_systemtool_min_version">Для цього модулю необхідно мати новішу версію SystemTool (%d), тож його не можна активувати.</string>
-    <string name="no_min_version_specified">В цьому модулі не вказано необхідну для нього версію SystemTool.</string>
-    <string name="warning_min_version_too_low">Цей модуль створений для SystemTool версії %1$d, але через несумісні зміни у версії %2$d, його було деактивовано.</string>
+    <string name="no_sysoperation_modules_found">Жодного модулю SysOperation не знайдено!</string>
+    <string name="sysoperation_module_list_updated">Перелік модулів SysOperation було оновлено\nЗміни активуються після перезавантаження</string>
+    <string name="sysoperation_module_updated_notification_title">Модуль SysOperation оновлено</string>
+    <string name="sysoperation_module_updated_notification">Для активації змін перезавантажтеся</string>
+    <string name="warning_sysoperation_min_version">Для цього модулю необхідно мати новішу версію SysOperation (%d), тож його не можна активувати.</string>
+    <string name="no_min_version_specified">В цьому модулі не вказано необхідну для нього версію SysOperation.</string>
+    <string name="warning_min_version_too_low">Цей модуль створений для SysOperation версії %1$d, але через несумісні зміни у версії %2$d, його було деактивовано.</string>
     <string name="module_launch">Запуск користувацького інтерфейсу</string>
     <string name="module_download_updates">Звантаження/Оновлення</string>
     <string name="module_support">Підтримка</string>

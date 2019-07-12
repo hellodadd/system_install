@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Menghantar</string>
     <string name="menuSaveToSd">Simpan Ke SD Kad</string>
-    <string name="systemtool_not_active">Versi terkini SystemTool masih tidak aktif. Adakah anda memasang Framework dan hidupkan semula?</string>
+    <string name="sysoperation_not_active">Versi terkini SysOperation masih tidak aktif. Adakah anda memasang Framework dan hidupkan semula?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Terdapat kemaskini terbaru SystemTool Framework tersedia (%s).</string>
+    <string name="welcome_framework_update_available">Terdapat kemaskini terbaru SysOperation Framework tersedia (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">%s Akan flash secara automatik jika anda menekan "OK".</string>
     <string name="reboot_confirmation">Adakah anda mahu menghidupkan semula sekarang?</string>
     <string name="install_warning_title">Berhati²!</string>
-    <string name="install_warning">Ada sesetengah kes, peranti anda mungkin tidak dapat hidupkan semula selepas memasang SystemTool.\n\nJika anda tidak peduli mengenainya \"soft brick\" and \"bootloop\" sebelum anda lakukan dan\'tidak tahu bagaimana untuk pemulihan dari sebarang situasi, Jangan <b>Tidak</b> Memasang SystemTool!\n\nada sesetengah kes, digalakkan anda membuat sandaran.</string>
+    <string name="install_warning">Ada sesetengah kes, peranti anda mungkin tidak dapat hidupkan semula selepas memasang SysOperation.\n\nJika anda tidak peduli mengenainya \"soft brick\" and \"bootloop\" sebelum anda lakukan dan\'tidak tahu bagaimana untuk pemulihan dari sebarang situasi, Jangan <b>Tidak</b> Memasang SysOperation!\n\nada sesetengah kes, digalakkan anda membuat sandaran.</string>
     <string name="dont_show_again">Jangan\' tunjukkan ini lagi</string>
-    <string name="install_known_issue">Dimana kelihatan sebarang isu(\"%s\") dengan ROM anda. Pemasangan SystemTool mungkin tidak berfungsi atau mengalami masalah atau sedikit gangguan. Klik disini untuk penjelasan mengenai isu.</string>
+    <string name="install_known_issue">Dimana kelihatan sebarang isu(\"%s\") dengan ROM anda. Pemasangan SysOperation mungkin tidak berfungsi atau mengalami masalah atau sedikit gangguan. Klik disini untuk penjelasan mengenai isu.</string>
 
     <!-- File operations -->
     <string name="root_failed">Gagal untuk mendapat kebenaran root.\n\nPastikan peranti anda telah di\'root secara sempurna dan anda tidak menghalang shell commands.</string>
@@ -35,19 +35,19 @@
     <string name="file_done">Selesai! Perubahan akan aktif selepas dihidupkan semula.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool modul tidak diaktifkan lagi</string>
+    <string name="module_is_not_activated_yet">SysOperation modul tidak diaktifkan lagi</string>
     <string name="module_is_not_activated_yet_detailed">%s telah dipasang, tetapi tidak aktif lagi.</string>
     <string name="activate_and_reboot">Aktif dan hidupkan semula</string>
-    <string name="module_activated">SystemTool modul telah diaktifkan</string>
+    <string name="module_activated">SysOperation modul telah diaktifkan</string>
     <string name="module_empty_description">(Tidak ada senarai disediakan)</string>
     <string name="module_no_ui">Modul ini tidak menyediakan paparan pemuka pengguna</string>
-    <string name="no_systemtool_modules_found">SystemTool modul tidak ditemui!</string>
-    <string name="systemtool_module_list_updated">Senarai SystemTool modul telah dikemaskini\nPenukaran akan aktif selepas dihidupkan semula</string>
-    <string name="systemtool_module_updated_notification_title">SystemTool modul dikemaskini</string>
-    <string name="systemtool_module_updated_notification">Hidupkan semula untuk diaktifkan perubahan</string>
-    <string name="warning_systemtool_min_version">Modul ini memerlukan SystemTool versi terbaru (%d) sebab itu tidak dapat diaktifkan.</string>
-    <string name="no_min_version_specified">Modul seperti tidak sesuai dengan SystemTool versi yg dikehendaki.</string>
-    <string name="warning_min_version_too_low">Modul ini dibuat untuk SystemTool versi %1$d, tetapi disebabkan tidak sesuai kepada perubahan mengikut versi %2$d, maka telah dimatikan.</string>
+    <string name="no_sysoperation_modules_found">SysOperation modul tidak ditemui!</string>
+    <string name="sysoperation_module_list_updated">Senarai SysOperation modul telah dikemaskini\nPenukaran akan aktif selepas dihidupkan semula</string>
+    <string name="sysoperation_module_updated_notification_title">SysOperation modul dikemaskini</string>
+    <string name="sysoperation_module_updated_notification">Hidupkan semula untuk diaktifkan perubahan</string>
+    <string name="warning_sysoperation_min_version">Modul ini memerlukan SysOperation versi terbaru (%d) sebab itu tidak dapat diaktifkan.</string>
+    <string name="no_min_version_specified">Modul seperti tidak sesuai dengan SysOperation versi yg dikehendaki.</string>
+    <string name="warning_min_version_too_low">Modul ini dibuat untuk SysOperation versi %1$d, tetapi disebabkan tidak sesuai kepada perubahan mengikut versi %2$d, maka telah dimatikan.</string>
     <string name="module_launch">Lancarkan UI</string>
     <string name="module_download_updates">Muat Turun/Kemaskini</string>
     <string name="module_support">Bantuan</string>

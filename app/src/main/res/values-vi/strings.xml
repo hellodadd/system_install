@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Gửi</string>
     <string name="menuSaveToSd">Lưu vào thẻ SD</string>
-    <string name="systemtool_not_active">Phiên bản mới nhất của SystemTool chưa hoạt động. Bạn đã cài Framework và khởi động lại chưa?</string>
+    <string name="sysoperation_not_active">Phiên bản mới nhất của SysOperation chưa hoạt động. Bạn đã cài Framework và khởi động lại chưa?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Đã có bản mới cho Framework của SystemTool (%s).</string>
+    <string name="welcome_framework_update_available">Đã có bản mới cho Framework của SysOperation (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">%s sẽ được cài đặt tự động khi bạn bấm "OK".</string>
     <string name="reboot_confirmation">Bạn có muốn khởi động lại không?</string>
     <string name="install_warning_title">Hãy cẩn thận!</string>
-    <string name="install_warning">Trong một số trường hợp, thiết bị của bạn có thể không khởi động được sau khi cài SystemTool.\n\nNếu bạn chưa từng nghe nói về \"soft brick\" và \"bootloop\" hoặc nếu bạn không biết cách xử lý trong tình huống đó, thì <b>ĐỪNG</b> cài SystemTool!\n\nDù thế nào, bạn cũng nên có một bản sao lưu mới.</string>
+    <string name="install_warning">Trong một số trường hợp, thiết bị của bạn có thể không khởi động được sau khi cài SysOperation.\n\nNếu bạn chưa từng nghe nói về \"soft brick\" và \"bootloop\" hoặc nếu bạn không biết cách xử lý trong tình huống đó, thì <b>ĐỪNG</b> cài SysOperation!\n\nDù thế nào, bạn cũng nên có một bản sao lưu mới.</string>
     <string name="dont_show_again">Đừng hiện lại nữa</string>
-    <string name="install_known_issue">Bản ROM của bạn đã được thông báo là gặp truc trặc (\"%s\") với SystemTool. Ứng dụng có thể không hoạt động hoặc gặp lỗi nghiêm trọng. Hãy bấm vào đây để xem chi tiết vấn đề.</string>
+    <string name="install_known_issue">Bản ROM của bạn đã được thông báo là gặp truc trặc (\"%s\") với SysOperation. Ứng dụng có thể không hoạt động hoặc gặp lỗi nghiêm trọng. Hãy bấm vào đây để xem chi tiết vấn đề.</string>
 
     <!-- File operations -->
     <string name="root_failed">Không thể lấy quyền root.\n\nHãy đảm bảo rằng thiết bị của bạn đã root và bạn không chặn các lệnh shell.</string>
@@ -38,16 +38,16 @@
     <string name="module_is_not_activated_yet">Module chưa bật</string>
     <string name="module_is_not_activated_yet_detailed">%s đã được cài, nhưng chưa được kích hoạt.</string>
     <string name="activate_and_reboot">Kích hoạt và khởi động lại</string>
-    <string name="module_activated">Module của SystemTool đã được kích hoạt</string>
+    <string name="module_activated">Module của SysOperation đã được kích hoạt</string>
     <string name="module_empty_description">(không có phần miêu tả)</string>
     <string name="module_no_ui">Module này không có giao diện</string>
-    <string name="no_systemtool_modules_found">Không tìm thấy module nào!</string>
-    <string name="systemtool_module_list_updated">Danh sách module đã được cập nhật\nCác thay đổi sẽ có hiệu lực sau khi khởi động lại</string>
-    <string name="systemtool_module_updated_notification_title">Module của SystemTool đã được cập nhật</string>
-    <string name="systemtool_module_updated_notification">Khởi động lại để áp dụng ác thay đổi</string>
-    <string name="warning_systemtool_min_version">Module này cần bản SystemTool mới (%d) nên hiện tại không thể bật.</string>
-    <string name="no_min_version_specified">Module này không yêu cầu cụ thể phiên bản SystemTool nào.</string>
-    <string name="warning_min_version_too_low">Module này được viết cho SystemTool bản %1$d, nhưng do không tương thích với các thay đổi trong bản %2$d, nên đã bị tắt.</string>
+    <string name="no_sysoperation_modules_found">Không tìm thấy module nào!</string>
+    <string name="sysoperation_module_list_updated">Danh sách module đã được cập nhật\nCác thay đổi sẽ có hiệu lực sau khi khởi động lại</string>
+    <string name="sysoperation_module_updated_notification_title">Module của SysOperation đã được cập nhật</string>
+    <string name="sysoperation_module_updated_notification">Khởi động lại để áp dụng ác thay đổi</string>
+    <string name="warning_sysoperation_min_version">Module này cần bản SysOperation mới (%d) nên hiện tại không thể bật.</string>
+    <string name="no_min_version_specified">Module này không yêu cầu cụ thể phiên bản SysOperation nào.</string>
+    <string name="warning_min_version_too_low">Module này được viết cho SysOperation bản %1$d, nhưng do không tương thích với các thay đổi trong bản %2$d, nên đã bị tắt.</string>
     <string name="module_launch">Mở giao diện</string>
     <string name="module_download_updates">Tải xuống/Cập nhật</string>
     <string name="module_support">Hỗ trợ</string>

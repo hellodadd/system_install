@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Enviar</string>
     <string name="menuSaveToSd">Guardar para o cartão SD</string>
-    <string name="systemtool_not_active">A versão mais recente da \"SystemTool\" ainda não foi ativada. Instalou a \"Framework\" e reiniciou o dispositivo?</string>
+    <string name="sysoperation_not_active">A versão mais recente da \"SysOperation\" ainda não foi ativada. Instalou a \"Framework\" e reiniciou o dispositivo?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Está disponível uma atualização da \"SystemTool Framework\".</string>
+    <string name="welcome_framework_update_available">Está disponível uma atualização da \"SysOperation Framework\".</string>
     <string name="modules_updates_available">Estão disponíveis atualizações para alguns Módulos</string>
 
     <!-- Navigation drawer items -->
@@ -31,12 +31,12 @@
     <string name="auto_flash_note">%s será \"flashado\" assim que pressionar \"OK\".</string>
     <string name="reboot_confirmation">Pretende reiniciar?</string>
     <string name="install_warning_title">Atenção!</string>
-    <string name="install_warning">Em certos casos, após a instalação da \"SystemTool\", o dispositivo deixa de arrancar.\n\nAssim, se nunca ouviu falar em \"soft brick\" ou \"bootloop\", ou caso não saiba como recuperar de uma situação dessas, <b>NÃO</b> instale a \"SystemTool\"!\n\nIndependentemente disso, ter um \"backup\" recente é sempre, altamente, recomendado.</string>
+    <string name="install_warning">Em certos casos, após a instalação da \"SysOperation\", o dispositivo deixa de arrancar.\n\nAssim, se nunca ouviu falar em \"soft brick\" ou \"bootloop\", ou caso não saiba como recuperar de uma situação dessas, <b>NÃO</b> instale a \"SysOperation\"!\n\nIndependentemente disso, ter um \"backup\" recente é sempre, altamente, recomendado.</string>
     <string name="dont_show_again">Não mostrar novamente</string>
-    <string name="install_known_issue">Parece existir um problema conhecido (\"%s\") com a sua ROM. É provável que instalação da SystemTool falhe ou que surjam falhas graves. Toque aqui para obter mais detalhes sobre o problema.</string>
-    <string name="framework_active">A versão %s da \"SystemTool Framework\" está ativa.</string>
-    <string name="framework_not_active">A versão %s da \"SystemTool Framework\" está instalada mas não está ativa. Por favor verifique os registos para mais detalhes.</string>
-    <string name="framework_not_installed">A \"SystemTool Framework\" não está instalada.</string>
+    <string name="install_known_issue">Parece existir um problema conhecido (\"%s\") com a sua ROM. É provável que instalação da SysOperation falhe ou que surjam falhas graves. Toque aqui para obter mais detalhes sobre o problema.</string>
+    <string name="framework_active">A versão %s da \"SysOperation Framework\" está ativa.</string>
+    <string name="framework_not_active">A versão %s da \"SysOperation Framework\" está instalada mas não está ativa. Por favor verifique os registos para mais detalhes.</string>
+    <string name="framework_not_installed">A \"SysOperation Framework\" não está instalada.</string>
 
     <!-- File operations -->
     <string name="root_failed">Falha ao obter o acesso \"root\".\n\nCertifique-se que o seu aparelho dispõe de acesso \"root\" e/ou que foi dada permissão à app para correr como tal.</string>
@@ -49,19 +49,19 @@
     <string name="file_done">Feito! As mudanças ficarão ativas após reiniciar.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">O módulo \"SystemTool\! ainda não foi ativado</string>
+    <string name="module_is_not_activated_yet">O módulo \"SysOperation\! ainda não foi ativado</string>
     <string name="module_is_not_activated_yet_detailed">%s foi instalado, mas ainda não foi ativado.</string>
     <string name="activate_and_reboot">Ativar e reiniciar</string>
-    <string name="module_activated">O Módulo \"SystemTool\" foi ativado</string>
+    <string name="module_activated">O Módulo \"SysOperation\" foi ativado</string>
     <string name="module_empty_description">(não existe qualquer descrição)</string>
     <string name="module_no_ui">Este módulo não dispõe de uma interface de utilizador</string>
-    <string name="no_systemtool_modules_found">Não foram encontrados módulos!</string>
-    <string name="systemtool_module_list_updated">A lista de módulos \"SystemTool\" foi atualizada\nAs mudanças tornar-se-ão efetivas após reiniciar</string>
-    <string name="systemtool_module_updated_notification_title">Módulo \"SystemTool\" atualizado</string>
-    <string name="systemtool_module_updated_notification">Reinicie para que as mudanças se tornem efetivas</string>
-    <string name="warning_systemtool_min_version">Este módulo requer uma versão mais recente da \"SystemTool\" (%d) e não pode ser ativado.</string>
-    <string name="no_min_version_specified">Este módulo não especifica qual a versão \!SystemTool\" que necessita.</string>
-    <string name="warning_min_version_too_low">Este módulo foi criado para a \"SystemTool\" versão %1$d mas, devido a incompatibilidade na versão %2$d, foi desabilitado.</string>
+    <string name="no_sysoperation_modules_found">Não foram encontrados módulos!</string>
+    <string name="sysoperation_module_list_updated">A lista de módulos \"SysOperation\" foi atualizada\nAs mudanças tornar-se-ão efetivas após reiniciar</string>
+    <string name="sysoperation_module_updated_notification_title">Módulo \"SysOperation\" atualizado</string>
+    <string name="sysoperation_module_updated_notification">Reinicie para que as mudanças se tornem efetivas</string>
+    <string name="warning_sysoperation_min_version">Este módulo requer uma versão mais recente da \"SysOperation\" (%d) e não pode ser ativado.</string>
+    <string name="no_min_version_specified">Este módulo não especifica qual a versão \!SysOperation\" que necessita.</string>
+    <string name="warning_min_version_too_low">Este módulo foi criado para a \"SysOperation\" versão %1$d mas, devido a incompatibilidade na versão %2$d, foi desabilitado.</string>
     <string name="module_launch">Abrir IU</string>
     <string name="module_download_updates">Descarregar/Atualizar</string>
     <string name="module_support">Suporte</string>
@@ -125,7 +125,7 @@
     <string name="support_framework_label">Suporte à \"Framework\"/\"Installer\"</string>
     <string name="support_faq_label">FAQ/Problemas conhecidos</string>
     <string name="support_donate_label">Doar</string>
-    <string name="support_donate_description">Se quiser agradecer pela \"SystemTool\", pode fazer um donativo ao rovo89 aqui</string>
+    <string name="support_donate_description">Se quiser agradecer pela \"SysOperation\", pode fazer um donativo ao rovo89 aqui</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">Não foi possível gravar o registo no cartão SD:</string>

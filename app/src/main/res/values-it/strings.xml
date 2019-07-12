@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Invia</string>
     <string name="menuSaveToSd">Salva sulla scheda SD</string>
-    <string name="systemtool_not_active">L\'ultima versione di SystemTool al momento non è attiva. Hai installato il Framework e riavviato?</string>
+    <string name="sysoperation_not_active">L\'ultima versione di SysOperation al momento non è attiva. Hai installato il Framework e riavviato?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">È disponibile un aggiornamento per il Framework SystemTool.</string>
+    <string name="welcome_framework_update_available">È disponibile un aggiornamento per il Framework SysOperation.</string>
     <string name="modules_updates_available">Aggiornamenti dei moduli disponibili</string>
 
     <!-- Navigation drawer items -->
@@ -31,15 +31,15 @@
     <string name="auto_flash_note">%s sarà flashato automaticamente una volta premuto "OK".</string>
     <string name="reboot_confirmation">Vuoi riavviare ora?</string>
     <string name="install_warning_title">Sii prudente!</string>
-    <string name="install_warning">In alcuni casi, il dispositivo potrebbe non accendersi più dopo l\'installazione di SystemTool.\n\nSe non hai mai sentito parlare di \"soft brick\" e \"bootloop\" prima d\'ora o se non si è capaci di ripristinare il dispositivo <b>NON</b> installare SystemTool!\n\nIn molti casi. avere un backup recente è altamente raccomandato.</string>
+    <string name="install_warning">In alcuni casi, il dispositivo potrebbe non accendersi più dopo l\'installazione di SysOperation.\n\nSe non hai mai sentito parlare di \"soft brick\" e \"bootloop\" prima d\'ora o se non si è capaci di ripristinare il dispositivo <b>NON</b> installare SysOperation!\n\nIn molti casi. avere un backup recente è altamente raccomandato.</string>
     <string name="dont_show_again">Non mostrare più</string>
-    <string name="install_known_issue">Sembra esserci un problema noto (\"%s\") con la tua ROM. Installando SystemTool potrebbe non funzionare o causare gravi problemi. Clicca qui per dettagli sul problema.</string>
-    <string name="framework_active">La versione di SystemTool Framework attiva è: %s.</string>
-    <string name="framework_not_active">La versione di SystemTool Framework installata è %s, ma non è attiva. Perfavore controlla i log per dettagli.</string>
-    <string name="framework_not_installed">SystemTool Framework non è installato.</string>
-    <string name="status">Stato SystemTool</string>
-    <string name="systemtool_on_next_reboot">SystemTool Framework sarà abilitato al prossimo riavvio</string>
-    <string name="systemtool_off_next_reboot">SystemTool Framework sarà disabilitato al prossimo riavvio</string>
+    <string name="install_known_issue">Sembra esserci un problema noto (\"%s\") con la tua ROM. Installando SysOperation potrebbe non funzionare o causare gravi problemi. Clicca qui per dettagli sul problema.</string>
+    <string name="framework_active">La versione di SysOperation Framework attiva è: %s.</string>
+    <string name="framework_not_active">La versione di SysOperation Framework installata è %s, ma non è attiva. Perfavore controlla i log per dettagli.</string>
+    <string name="framework_not_installed">SysOperation Framework non è installato.</string>
+    <string name="status">Stato SysOperation</string>
+    <string name="sysoperation_on_next_reboot">SysOperation Framework sarà abilitato al prossimo riavvio</string>
+    <string name="sysoperation_off_next_reboot">SysOperation Framework sarà disabilitato al prossimo riavvio</string>
 
     <!-- File operations -->
     <string name="root_failed">Impossibile ottenere l\'accesso root.\n\nAssicurati di avere correttamente i permessi e di non aver bloccato comandi shell.</string>
@@ -52,20 +52,20 @@
     <string name="file_done">Fatto! I cambiamenti saranno attivi dopo il riavvio.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Il modulo SystemTool non è stato ancora attivato</string>
+    <string name="module_is_not_activated_yet">Il modulo SysOperation non è stato ancora attivato</string>
     <string name="module_is_not_activated_yet_detailed">%s è stato installato, ma non è ancora attivo.</string>
     <string name="activate_and_reboot">Attiva e riavvia</string>
     <string name="activate_only">Attiva solamente</string>
     <string name="module_activated">Il modulo è stato attivato</string>
     <string name="module_empty_description">(descrizione non disponibile)</string>
     <string name="module_no_ui">Questo modulo non dispone di un\'interfaccia utente</string>
-    <string name="no_systemtool_modules_found">Nessun modulo SystemTool trovato!</string>
-    <string name="systemtool_module_list_updated">La lista dei moduli SystemTool è stata aggiornata\nI cambiamenti saranno attivi al riavvio</string>
-    <string name="systemtool_module_updated_notification_title">Modulo SystemTool aggiornato</string>
-    <string name="systemtool_module_updated_notification">Riavvia per attivare i cambiamenti</string>
-    <string name="warning_systemtool_min_version">Questo modulo richiede una nuova versione (%d) di SystemTool, di conseguenza non può essere attivato.</string>
-    <string name="no_min_version_specified">Questo modulo non specifica la versione di SystemTool di cui ha bisogno.</string>
-    <string name="warning_min_version_too_low">Questo modulo è stato creato per la versione %1$d di SystemTool, ma a causa di incompatibilità con la versione %2$d è stato disattivato.</string>
+    <string name="no_sysoperation_modules_found">Nessun modulo SysOperation trovato!</string>
+    <string name="sysoperation_module_list_updated">La lista dei moduli SysOperation è stata aggiornata\nI cambiamenti saranno attivi al riavvio</string>
+    <string name="sysoperation_module_updated_notification_title">Modulo SysOperation aggiornato</string>
+    <string name="sysoperation_module_updated_notification">Riavvia per attivare i cambiamenti</string>
+    <string name="warning_sysoperation_min_version">Questo modulo richiede una nuova versione (%d) di SysOperation, di conseguenza non può essere attivato.</string>
+    <string name="no_min_version_specified">Questo modulo non specifica la versione di SysOperation di cui ha bisogno.</string>
+    <string name="warning_min_version_too_low">Questo modulo è stato creato per la versione %1$d di SysOperation, ma a causa di incompatibilità con la versione %2$d è stato disattivato.</string>
     <string name="module_launch">Apri interfaccia</string>
     <string name="module_download_updates">Scarica/Aggiorna</string>
     <string name="module_support">Supporto</string>
@@ -121,8 +121,8 @@
     <string name="settings_default_view">Vista di default</string>
     <string name="open_drawer_summ">Apri automaticamente il menù laterale all\'avvio</string>
     <string name="open_drawer">Apri automaticamente il menù laterale</string>
-    <string name="skip_systemtoolminversion_check">Salta controllo \'systemtoolminversion\' </string>
-    <string name="skip_systemtoolminversion_check_summ">Salta controllo \'systemtoolminversion\' per i moduli</string>
+    <string name="skip_sysoperationminversion_check">Salta controllo \'sysoperationminversion\' </string>
+    <string name="skip_sysoperationminversion_check_summ">Salta controllo \'sysoperationminversion\' per i moduli</string>
     <string name="chrome_custom_tabs">Chrome Custom Tabs</string>
     <string name="chrome_custom_tabs_summ">Apri link nel browser interno</string>
     <string name="notify_module_update">Abilita notifica aggiornamenti dei moduli</string>
@@ -133,7 +133,7 @@
     <string name="support_framework_label">Framework/Installer supporto</string>
     <string name="support_faq_label">FAQ/Bug conosciuti</string>
     <string name="support_donate_label">Dona</string>
-    <string name="support_donate_description">Se ti piacerebbe dire grazie per SystemTool, puoi donare a rovo89 qui</string>
+    <string name="support_donate_description">Se ti piacerebbe dire grazie per SysOperation, puoi donare a rovo89 qui</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">Impossibile scrivere il log sulla scheda SD:</string>

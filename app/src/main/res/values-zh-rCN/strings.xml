@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">发送</string>
     <string name="menuSaveToSd">保存到 SD 卡</string>
-    <string name="systemtool_not_active">最新版 SystemTool 当前未激活。您是否已安装框架并重启？</string>
+    <string name="sysoperation_not_active">最新版 SysOperation 当前未激活。您是否已安装框架并重启？</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">SystemTool 框架有更新可用（%s）。</string>
+    <string name="welcome_framework_update_available">SysOperation 框架有更新可用（%s）。</string>
     <string name="modules_updates_available">有模块可更新</string>
 
     <!-- Navigation drawer items -->
@@ -32,10 +32,10 @@
     <string name="reboot_confirmation">您现在要重启设备吗？</string>
     <string name="install_warning_title">小心！</string>
     <string name="dont_show_again">不要再显示这个</string>
-    <string name="install_known_issue">SystemTool 与您的 ROM 似乎存在已知的问题（“%s”）。安装 SystemTool 可能无法工作或引发严重问题。点击此处获知问题详情。</string>
-    <string name="framework_active">SystemTool 框架 %s 版已激活。</string>
-    <string name="framework_not_active">SystemTool 框架 %s 版已安装，但未激活。请检查日志的详细信息。</string>
-    <string name="framework_not_installed">SystemTool 框架未安装。</string>
+    <string name="install_known_issue">SysOperation 与您的 ROM 似乎存在已知的问题（“%s”）。安装 SysOperation 可能无法工作或引发严重问题。点击此处获知问题详情。</string>
+    <string name="framework_active">SysOperation 框架 %s 版已激活。</string>
+    <string name="framework_not_active">SysOperation 框架 %s 版已安装，但未激活。请检查日志的详细信息。</string>
+    <string name="framework_not_installed">SysOperation 框架未安装。</string>
 
     <!-- File operations -->
     <string name="file_copying">正在复制 %s…</string>
@@ -47,18 +47,18 @@
     <string name="file_done">完成！更改将于重启设备之后生效。</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool 模块未激活</string>
+    <string name="module_is_not_activated_yet">SysOperation 模块未激活</string>
     <string name="module_is_not_activated_yet_detailed">%s 已安装，但尚未激活。</string>
     <string name="activate_and_reboot">激活并重启设备</string>
-    <string name="module_activated">SystemTool 模块已激活</string>
+    <string name="module_activated">SysOperation 模块已激活</string>
     <string name="module_empty_description">（未提供描述）</string>
     <string name="module_no_ui">该模块未提供用户界面</string>
-    <string name="no_systemtool_modules_found">未找到 SystemTool 模块！</string>
-    <string name="systemtool_module_updated_notification_title">SystemTool 模块已更新</string>
-    <string name="systemtool_module_updated_notification">重启设备以激活更新。</string>
-    <string name="warning_systemtool_min_version">该模块需要 SystemTool 新版（%d），因此无法激活。</string>
-    <string name="no_min_version_specified">该模块未指定需要的 SystemTool 版本。</string>
-    <string name="warning_min_version_too_low">该模块在 SystemTool %1$d 版下创建，但因为不兼容 %2$d 版中的更改，它已被禁用。</string>
+    <string name="no_sysoperation_modules_found">未找到 SysOperation 模块！</string>
+    <string name="sysoperation_module_updated_notification_title">SysOperation 模块已更新</string>
+    <string name="sysoperation_module_updated_notification">重启设备以激活更新。</string>
+    <string name="warning_sysoperation_min_version">该模块需要 SysOperation 新版（%d），因此无法激活。</string>
+    <string name="no_min_version_specified">该模块未指定需要的 SysOperation 版本。</string>
+    <string name="warning_min_version_too_low">该模块在 SysOperation %1$d 版下创建，但因为不兼容 %2$d 版中的更改，它已被禁用。</string>
     <string name="module_launch">开启用户界面</string>
     <string name="module_download_updates">下载/更新</string>
     <string name="module_support">支持</string>
@@ -121,7 +121,7 @@
     <string name="support_framework_label">框架/安装器支持</string>
     <string name="support_faq_label">常见问题/已知问题</string>
     <string name="support_donate_label">捐赠</string>
-    <string name="support_donate_description">如果您想感谢 SystemTool 作者，可以在此向 rovo89 捐赠</string>
+    <string name="support_donate_description">如果您想感谢 SysOperation 作者，可以在此向 rovo89 捐赠</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">无法将日志写入 SD 卡：</string>

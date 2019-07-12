@@ -4,7 +4,7 @@
     <!-- General/various strings -->
     <string name="menuSend">भेजो</string>
     <string name="menuSaveToSd"> SD काऱड पर सेव करे </string>
-    <string name="systemtool_not_active">एक्सोसड का सबसे नया वऱजन चालू नही है | क्या आपने एक्सोसड को चालू किया है ?</string>
+    <string name="sysoperation_not_active">एक्सोसड का सबसे नया वऱजन चालू नही है | क्या आपने एक्सोसड को चालू किया है ?</string>
 
     <!-- Welcome screen / main sections -->
     <string name="welcome_framework_update_available">क्स्पोसेद फ्रेमवर्क का अपडेट अवेलेबल है (%s)।</string>
@@ -41,11 +41,11 @@
     <string name="module_activated">एक्स्पोसड मोदुले अभी चालू है</string>
     <string name="module_empty_description">(इसके बारे में कोई जानकारी नहीं दी गयी है)</string>
     <string name="module_no_ui">इस मोदुले का यूजर इंटरफ़ेस नहीं है</string>
-    <string name="no_systemtool_modules_found">कोई एक्स्पोसड मोदुलेस ना मिले!</string>
-    <string name="systemtool_module_list_updated">एक्स्पोसड मोदुले की लिस्ट अपडेट हुई है\nकोई बदलाव रिबूट पर शुरू हो जाएगे</string>
-    <string name="systemtool_module_updated_notification_title">एक्स्पोसड मोदुले अपडेट हो गाया है</string>
-    <string name="systemtool_module_updated_notification">बदलाव शुरू अर्ने के लिए रिबूट करे</string>
-    <string name="warning_systemtool_min_version">इस मोदुले को नए एक्स्पोसडब्रिज वर्शन (%d) की जरुरत है और इसलिए वह चालू नहीं किया जा सकता.</string>
+    <string name="no_sysoperation_modules_found">कोई एक्स्पोसड मोदुलेस ना मिले!</string>
+    <string name="sysoperation_module_list_updated">एक्स्पोसड मोदुले की लिस्ट अपडेट हुई है\nकोई बदलाव रिबूट पर शुरू हो जाएगे</string>
+    <string name="sysoperation_module_updated_notification_title">एक्स्पोसड मोदुले अपडेट हो गाया है</string>
+    <string name="sysoperation_module_updated_notification">बदलाव शुरू अर्ने के लिए रिबूट करे</string>
+    <string name="warning_sysoperation_min_version">इस मोदुले को नए एक्स्पोसडब्रिज वर्शन (%d) की जरुरत है और इसलिए वह चालू नहीं किया जा सकता.</string>
     <string name="no_min_version_specified">यहाँ मोदुले नहीं बताता की इसे कौनसा एक्स्पोसडब्रिज वर्जन चाहिए।</string>
     <string name="warning_min_version_too_low">ये मोदुले एक्स्पोसडब्रिज वेर्सिओम %1$d के लिए बनाया गया था, पर कुछ तकनिकी कारणों के वजह से ये वर्जन %2$d के साथ नहीं चलता, इसलिए यह बंद कर सिया है।</string>
     <string name="module_launch">ऊई चालू करे</string>

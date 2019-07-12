@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Skicka</string>
     <string name="menuSaveToSd">Spara till SD-kort</string>
-    <string name="systemtool_not_active">Senaste versionen av SystemTool är inte aktiverad. Har du installerat ramverket och startat om?</string>
+    <string name="sysoperation_not_active">Senaste versionen av SysOperation är inte aktiverad. Har du installerat ramverket och startat om?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">En uppdatering för SystemTool ramverket är tillgänglig (%s).</string>
+    <string name="welcome_framework_update_available">En uppdatering för SysOperation ramverket är tillgänglig (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,14 +20,14 @@
     <!-- File operations -->
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool modulen är inte aktiverad än</string>
+    <string name="module_is_not_activated_yet">SysOperation modulen är inte aktiverad än</string>
     <string name="module_empty_description">(ingen beskrivning given)</string>
     <string name="module_no_ui">Denna modul tillhandahåller inte ett användargränssnitt</string>
-    <string name="no_systemtool_modules_found">Inga SystemTool moduler hittades!</string>
-    <string name="systemtool_module_list_updated">SystemTool modullistan uppdaterades\nFörändringar kommer att bli aktiv vid omstart</string>
-    <string name="warning_systemtool_min_version">Denna modul kräver en nyare SystemTool version (%d) och sålunda inte kan aktiveras.</string>
-    <string name="no_min_version_specified">Denna modul specificerar inte den SystemTool version som behövs.</string>
-    <string name="warning_min_version_too_low">Denna modul skapades för SystemTool version %1$d, men på grund av oförenliga förändringar i version %2$d, har den avaktiverats.</string>
+    <string name="no_sysoperation_modules_found">Inga SysOperation moduler hittades!</string>
+    <string name="sysoperation_module_list_updated">SysOperation modullistan uppdaterades\nFörändringar kommer att bli aktiv vid omstart</string>
+    <string name="warning_sysoperation_min_version">Denna modul kräver en nyare SysOperation version (%d) och sålunda inte kan aktiveras.</string>
+    <string name="no_min_version_specified">Denna modul specificerar inte den SysOperation version som behövs.</string>
+    <string name="warning_min_version_too_low">Denna modul skapades för SysOperation version %1$d, men på grund av oförenliga förändringar i version %2$d, har den avaktiverats.</string>
     <string name="module_launch">Start UI</string>
     <string name="module_download_updates">Ladda ner/Uppdateringar</string>
     <string name="module_support">Support</string>

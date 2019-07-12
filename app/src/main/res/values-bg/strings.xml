@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Изпрати</string>
     <string name="menuSaveToSd">Запиши в SD картата</string>
-    <string name="systemtool_not_active">Последната версия на SystemTool не е активна. Инсталирахте ли Framework и рестартирахте ли?</string>
+    <string name="sysoperation_not_active">Последната версия на SysOperation не е активна. Инсталирахте ли Framework и рестартирахте ли?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Налично е обновление за SystemTool Framework (%s).</string>
+    <string name="welcome_framework_update_available">Налично е обновление за SysOperation Framework (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">%s ще бъде flash-нат автоматично след като натиснете "OK".</string>
     <string name="reboot_confirmation">Да рестартирам ли сега?</string>
     <string name="install_warning_title">Бъдете внимателни!</string>
-    <string name="install_warning">В някои случаи е възможно, след инсталиране на SystemTool вашето устройство да не стартира.\n\nАко никога не сте чували за \"soft brick\" и \"bootloop\" или ако незнаете как да възстановите устройството в такава ситуация, <b>НЕ</b> инсталирайте SystemTool!\n\nВъв всеки случай се препоръчва да имате скорошно резервно копие.</string>
+    <string name="install_warning">В някои случаи е възможно, след инсталиране на SysOperation вашето устройство да не стартира.\n\nАко никога не сте чували за \"soft brick\" и \"bootloop\" или ако незнаете как да възстановите устройството в такава ситуация, <b>НЕ</b> инсталирайте SysOperation!\n\nВъв всеки случай се препоръчва да имате скорошно резервно копие.</string>
     <string name="dont_show_again">Не показвай отново</string>
-    <string name="install_known_issue">Изглежда, че съществува известен проблем (\"%s\") с Вашия ROM. Инсталирането на SystemTool може да не работи или да доведе до някои проблеми. Натиснете тук за повече информация относно този проблем.</string>
+    <string name="install_known_issue">Изглежда, че съществува известен проблем (\"%s\") с Вашия ROM. Инсталирането на SysOperation може да не работи или да доведе до някои проблеми. Натиснете тук за повече информация относно този проблем.</string>
 
     <!-- File operations -->
     <string name="root_failed">Няма root достъп.\n\nУбедете се, че устройството Ви е root-нато и не сте блокирали shell командите.</string>
@@ -35,19 +35,19 @@
     <string name="file_done">Готово! Промените ще се активират след рестарт.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Модула за SystemTool не е активиран</string>
+    <string name="module_is_not_activated_yet">Модула за SysOperation не е активиран</string>
     <string name="module_is_not_activated_yet_detailed">%s беше инсталиран, но все още не е активиран.</string>
     <string name="activate_and_reboot">Активирай и рестартирай</string>
-    <string name="module_activated">SystemTool модула е активиран</string>
+    <string name="module_activated">SysOperation модула е активиран</string>
     <string name="module_empty_description">(няма описание)</string>
     <string name="module_no_ui">Този модул няма потребителски интерфейс</string>
-    <string name="no_systemtool_modules_found">Не са намерени модули за SystemTool!</string>
-    <string name="systemtool_module_list_updated">Списъка с SystemTool модули е обновен\nПромените ще бъдат активни след рестарт</string>
-    <string name="systemtool_module_updated_notification_title">Обновен е SystemTool модул</string>
-    <string name="systemtool_module_updated_notification">Рестартирай за прилагана на промените</string>
-    <string name="warning_systemtool_min_version">Този модул изисква най-новият SystemTool версия (%d) и не може да се активира.</string>
-    <string name="no_min_version_specified">Този модул не указва нужната версия на SystemTool.</string>
-    <string name="warning_min_version_too_low">Този модул е създаден за SystemTool версия %1$d, но поради несъвместимост с версия %2$d, е изключен.</string>
+    <string name="no_sysoperation_modules_found">Не са намерени модули за SysOperation!</string>
+    <string name="sysoperation_module_list_updated">Списъка с SysOperation модули е обновен\nПромените ще бъдат активни след рестарт</string>
+    <string name="sysoperation_module_updated_notification_title">Обновен е SysOperation модул</string>
+    <string name="sysoperation_module_updated_notification">Рестартирай за прилагана на промените</string>
+    <string name="warning_sysoperation_min_version">Този модул изисква най-новият SysOperation версия (%d) и не може да се активира.</string>
+    <string name="no_min_version_specified">Този модул не указва нужната версия на SysOperation.</string>
+    <string name="warning_min_version_too_low">Този модул е създаден за SysOperation версия %1$d, но поради несъвместимост с версия %2$d, е изключен.</string>
     <string name="module_launch">Стартирай UI</string>
     <string name="module_download_updates">Изтегляне/Обновяване</string>
     <string name="module_support">Поддръжка</string>

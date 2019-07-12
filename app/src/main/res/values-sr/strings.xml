@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Pošalji</string>
     <string name="menuSaveToSd">Snimi na SD kartu</string>
-    <string name="systemtool_not_active">Poslednja verzija SystemTool programa trenutno nije aktivna. Da li ste instalirali Framework i restartovali uređaj?</string>
+    <string name="sysoperation_not_active">Poslednja verzija SysOperation programa trenutno nije aktivna. Da li ste instalirali Framework i restartovali uređaj?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Nova verzija SystemTool Framework-a je dostupna (%s).</string>
+    <string name="welcome_framework_update_available">Nova verzija SysOperation Framework-a je dostupna (%s).</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,7 +20,7 @@
     <string name="auto_flash_note">%s instaliraće se automatski nakon što izaberete "OK".</string>
     <string name="reboot_confirmation">Da li želite da restartujete uređaj sada?</string>
     <string name="install_warning_title">Budite oprezni!</string>
-    <string name="install_warning">U nekim slučajevima, može se desiti da vaš uređaj ne podigne sistem nakon instalacije SystemTool-a.\n\Ako nikada niste čuli o terminima \"soft brick\" i \"bootloop\" do sada ili ako ne znate kako da nađete rešenje ako se nađete u toj situaciji, <b>NE</b> instalirajte SystemTool!\n\nU svakom slučaju, imati rezervnu kopiju sistema je preporučljivo.</string>
+    <string name="install_warning">U nekim slučajevima, može se desiti da vaš uređaj ne podigne sistem nakon instalacije SysOperation-a.\n\Ako nikada niste čuli o terminima \"soft brick\" i \"bootloop\" do sada ili ako ne znate kako da nađete rešenje ako se nađete u toj situaciji, <b>NE</b> instalirajte SysOperation!\n\nU svakom slučaju, imati rezervnu kopiju sistema je preporučljivo.</string>
     <string name="dont_show_again">Ne prikazuj ponovo</string>
 
     <!-- File operations -->
@@ -34,14 +34,14 @@
     <string name="file_done">Završeno! Promene će biti vidljive nakon ponovnog pokretanja sistema.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool modul još nije aktivan</string>
+    <string name="module_is_not_activated_yet">SysOperation modul još nije aktivan</string>
     <string name="module_empty_description">(trenutno bez opisa)</string>
     <string name="module_no_ui">Ovaj modul ne daje korisnički interfejs</string>
-    <string name="no_systemtool_modules_found">Ni jedan SystemTool modul nije pronađen!</string>
-    <string name="systemtool_module_list_updated">SystemTool modul lista je osvežena\nPromene će biti aktivne nakon ponovnog pokretanja sistema </string>
-    <string name="warning_systemtool_min_version">Ovaj modul zahteva noviju verziju SystemTool-a (%d) i zato ne može biti aktiviran.</string>
-    <string name="no_min_version_specified">Ovaj modul nije precizirao SystemTool verziju koja je potrebna.</string>
-    <string name="warning_min_version_too_low">Ovaj modul je kreiran za SystemTool verziju %1$d, ali zbog nekompaktibilnosti u verziji %2$d, je onemogućen.</string>
+    <string name="no_sysoperation_modules_found">Ni jedan SysOperation modul nije pronađen!</string>
+    <string name="sysoperation_module_list_updated">SysOperation modul lista je osvežena\nPromene će biti aktivne nakon ponovnog pokretanja sistema </string>
+    <string name="warning_sysoperation_min_version">Ovaj modul zahteva noviju verziju SysOperation-a (%d) i zato ne može biti aktiviran.</string>
+    <string name="no_min_version_specified">Ovaj modul nije precizirao SysOperation verziju koja je potrebna.</string>
+    <string name="warning_min_version_too_low">Ovaj modul je kreiran za SysOperation verziju %1$d, ali zbog nekompaktibilnosti u verziji %2$d, je onemogućen.</string>
     <string name="module_launch">Startovanje UI</string>
     <string name="module_download_updates">Učitaj/Nadogradi</string>
     <string name="module_support">Podrška</string>

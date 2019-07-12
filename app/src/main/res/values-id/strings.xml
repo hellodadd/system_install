@@ -17,14 +17,14 @@
     <!-- File operations -->
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Modul SystemTool belum diaktifkan</string>
+    <string name="module_is_not_activated_yet">Modul SysOperation belum diaktifkan</string>
     <string name="module_empty_description">(tidak ada deskripsi)</string>
     <string name="module_no_ui">Modul ini tidak ada tampilan utama</string>
-    <string name="no_systemtool_modules_found">Tidak ada modul SystemTool detemukan!</string>
-    <string name="systemtool_module_list_updated">Daftar modul telah diupdate\nAkan aktif setelah reboot.</string>
-    <string name="warning_systemtool_min_version">Modul ini membutuhkan SystemTool yang lebih baru (%d) dan tidak dapat diaktifkan.</string>
-    <string name="no_min_version_specified">Modul ini tidak memberitahukan versi SystemTool yang dibutuhkan.</string>
-    <string name="warning_min_version_too_low">Modul ini dibuat untuk SystemTool versi %1$d, tetapi karena ketidakcocoknya di versi %2$d, maka modul dimatikan.</string>
+    <string name="no_sysoperation_modules_found">Tidak ada modul SysOperation detemukan!</string>
+    <string name="sysoperation_module_list_updated">Daftar modul telah diupdate\nAkan aktif setelah reboot.</string>
+    <string name="warning_sysoperation_min_version">Modul ini membutuhkan SysOperation yang lebih baru (%d) dan tidak dapat diaktifkan.</string>
+    <string name="no_min_version_specified">Modul ini tidak memberitahukan versi SysOperation yang dibutuhkan.</string>
+    <string name="warning_min_version_too_low">Modul ini dibuat untuk SysOperation versi %1$d, tetapi karena ketidakcocoknya di versi %2$d, maka modul dimatikan.</string>
     <string name="module_launch">Buka UI</string>
     <string name="module_download_updates">Unduhan/Update</string>
     <string name="module_support">Dukungan</string>

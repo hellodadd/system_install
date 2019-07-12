@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Envoyer</string>
     <string name="menuSaveToSd">Sauver sur la carte SD</string>
-    <string name="systemtool_not_active">"La dernière version d'SystemTool est inactive. Avez-vous installé le Framework et redémarré ?"</string>
+    <string name="sysoperation_not_active">"La dernière version d'SysOperation est inactive. Avez-vous installé le Framework et redémarré ?"</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Une mise à jour du Framework SystemTool est disponible.</string>
+    <string name="welcome_framework_update_available">Une mise à jour du Framework SysOperation est disponible.</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,9 +20,9 @@
     <string name="auto_flash_note">%s sera automatiquement flashé dès que vous aurez appuyé sur "OK".</string>
     <string name="reboot_confirmation">Voulez-vous redémarrer maintenant ?</string>
     <string name="install_warning_title">Soyez prudent !</string>
-    <string name="install_warning">Dans certains cas, votre appareil pourrait ne plus démarrer après avoir installé le Framework SystemTool.\n\nSi vous n\'avez jamais entendu parler de \"soft brick\" et de \"bootloop\" avant ou si vous ne savez pas comment récupérer d\'une telle situation, n\'installez <b>PAS</b> le Framework SystemTool !\n\nDans tous les cas, il est fortement recommandé d\'avoir une sauvegarde récente.</string>
+    <string name="install_warning">Dans certains cas, votre appareil pourrait ne plus démarrer après avoir installé le Framework SysOperation.\n\nSi vous n\'avez jamais entendu parler de \"soft brick\" et de \"bootloop\" avant ou si vous ne savez pas comment récupérer d\'une telle situation, n\'installez <b>PAS</b> le Framework SysOperation !\n\nDans tous les cas, il est fortement recommandé d\'avoir une sauvegarde récente.</string>
     <string name="dont_show_again">Ne plus afficher</string>
-    <string name="install_known_issue">Il semble y avoir un problème connu (\"%s\") avec votre ROM. Installer le Framework SystemTool pourrait ne pas fonctionner ou provoquer des problèmes. Appuyez ici pour plus de détails.</string>
+    <string name="install_known_issue">Il semble y avoir un problème connu (\"%s\") avec votre ROM. Installer le Framework SysOperation pourrait ne pas fonctionner ou provoquer des problèmes. Appuyez ici pour plus de détails.</string>
 
     <!-- File operations -->
     <string name="root_failed">Échec accès root.\n\nAssurez-vous que votre appareil soit correctement rooté et que vous n\'ayez pas bloqué les commandes shell.</string>
@@ -35,19 +35,19 @@
     <string name="file_done">Fait ! Les modifications prendront effet au redémarrage.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">Le module SystemTool n\'est pas encore activé</string>
+    <string name="module_is_not_activated_yet">Le module SysOperation n\'est pas encore activé</string>
     <string name="module_is_not_activated_yet_detailed">%s a été installé mais n\'est pas encore activé.</string>
     <string name="activate_and_reboot">Activer et redémarrer</string>
-    <string name="module_activated">Module SystemTool activé</string>
+    <string name="module_activated">Module SysOperation activé</string>
     <string name="module_empty_description">(aucune description)</string>
     <string name="module_no_ui">Ce module ne fournit pas d\'interface utilisateur</string>
-    <string name="no_systemtool_modules_found">Aucun module SystemTool trouvé !</string>
-    <string name="systemtool_module_list_updated">La liste des modules SystemTool a été rafraîchie\nLes changements seront actifs après redémarrage</string>
-    <string name="systemtool_module_updated_notification_title">Module SystemTool mis à jour</string>
-    <string name="systemtool_module_updated_notification">Redémarrez pour appliquer les modifications</string>
-    <string name="warning_systemtool_min_version">Ce module nécessite une nouvelle version de SystemTool (%d) et ne peut donc pas être activé.</string>
-    <string name="no_min_version_specified">Ce module ne spécifie pas la version de SystemTool dont il a besoin.</string>
-    <string name="warning_min_version_too_low">Ce module a été créé pour SystemTool version %1$d, mais du fait de changements incompatibles dans la version %2$d, il a été désactivé.</string>
+    <string name="no_sysoperation_modules_found">Aucun module SysOperation trouvé !</string>
+    <string name="sysoperation_module_list_updated">La liste des modules SysOperation a été rafraîchie\nLes changements seront actifs après redémarrage</string>
+    <string name="sysoperation_module_updated_notification_title">Module SysOperation mis à jour</string>
+    <string name="sysoperation_module_updated_notification">Redémarrez pour appliquer les modifications</string>
+    <string name="warning_sysoperation_min_version">Ce module nécessite une nouvelle version de SysOperation (%d) et ne peut donc pas être activé.</string>
+    <string name="no_min_version_specified">Ce module ne spécifie pas la version de SysOperation dont il a besoin.</string>
+    <string name="warning_min_version_too_low">Ce module a été créé pour SysOperation version %1$d, mais du fait de changements incompatibles dans la version %2$d, il a été désactivé.</string>
     <string name="module_launch">Lancer l\'UI</string>
     <string name="module_download_updates">Installer/Mettre à jour</string>
     <string name="module_support">Support</string>

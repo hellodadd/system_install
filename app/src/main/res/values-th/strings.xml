@@ -4,7 +4,7 @@
     <!-- General/various strings -->
     <string name="menuSend">ส่ง</string>
     <string name="menuSaveToSd">บันทึกไปยังการ์ดความจำ</string>
-    <string name="systemtool_not_active">เวอร์ชั่นล่าสุด SystemTool ยังไม่ได้เปิดใช้งาน ต้องการติดตั้งเฟรมเวิร์คและรีบูต?</string>
+    <string name="sysoperation_not_active">เวอร์ชั่นล่าสุด SysOperation ยังไม่ได้เปิดใช้งาน ต้องการติดตั้งเฟรมเวิร์คและรีบูต?</string>
 
     <!-- Welcome screen / main sections -->
     <string name="welcome_framework_update_available">สามารถอัพเดทเฟรมเวิร์ค (%s)</string>
@@ -31,12 +31,12 @@
     <string name="auto_flash_note">%s จะแฟลชอัตโนมัติเมื่อคุณกด "ตกลง"</string>
     <string name="reboot_confirmation">ต้องการรีบูตเดี๋ยวนี้?</string>
     <string name="install_warning_title">โปรดระวัง!</string>
-    <string name="install_warning">ในกรณีที่โทรศัพท์ของคุณอาจจะไม่รีบูตหลังจากการติดตั้ง\n\nหากคุณไม่เคยได้ยินเกี่ยวกับ \"Soft Brick\" และ \"Bootloop\" มาก่อน <b>ห้าม</b>ติดตั้ง SystemTool!\n\nโดยทั่วไปแล้ว แนะนำให้กู้คืนไฟล์สำรองของคุณ</string>
+    <string name="install_warning">ในกรณีที่โทรศัพท์ของคุณอาจจะไม่รีบูตหลังจากการติดตั้ง\n\nหากคุณไม่เคยได้ยินเกี่ยวกับ \"Soft Brick\" และ \"Bootloop\" มาก่อน <b>ห้าม</b>ติดตั้ง SysOperation!\n\nโดยทั่วไปแล้ว แนะนำให้กู้คืนไฟล์สำรองของคุณ</string>
     <string name="dont_show_again">ไม่ต้องแสดงอีกครั้ง</string>
-    <string name="install_known_issue">ดูเหมือนจะเกิดปัญหา (\"%s\") กับรอมของคุณ การติดตั้ง SystemTool อาจจะไม่เวิร์คหรือทำให้เกิดปัญหาร้ายแรง คลิกที่นี่สำหรับรายละเอียดเกี่ยวกับปัญหา</string>
+    <string name="install_known_issue">ดูเหมือนจะเกิดปัญหา (\"%s\") กับรอมของคุณ การติดตั้ง SysOperation อาจจะไม่เวิร์คหรือทำให้เกิดปัญหาร้ายแรง คลิกที่นี่สำหรับรายละเอียดเกี่ยวกับปัญหา</string>
     <string name="framework_active">เฟรมเวิร์คเวอร์ชั่น %s เปิดใช้งานแล้ว</string>
     <string name="framework_not_active">เฟรมเวิร์คเวอร์ชั่น %s ถูกติดตั้งแล้วแต่ยังไม่ได้ใช้งาน กรุณาตรวจสอบบันทึกการใช้งานสำหรับรายละเอียด</string>
-    <string name="framework_not_installed">ยังไม่ได้ติดตั้งเฟรมเวิร์ค SystemTool</string>
+    <string name="framework_not_installed">ยังไม่ได้ติดตั้งเฟรมเวิร์ค SysOperation</string>
 
     <!-- File operations -->
     <string name="root_failed">การเข้าถึงรูทล้มเหลว\n\nแน่ใจว่าโทรศัพท์ของคุณได้รับการรูทเรียบร้อยแล้วและไม่ได้บล็อคคำสั่ง Shell</string>
@@ -55,13 +55,13 @@
     <string name="module_activated">โมดูลถูกเปิดใช้งานแล้ว</string>
     <string name="module_empty_description">(ไม่มีคำอธิบาย)</string>
     <string name="module_no_ui">โมดูลนี้ไม่มีส่วนติดต่อผู้ใช้</string>
-    <string name="no_systemtool_modules_found">ไม่พบโมดูล!</string>
-    <string name="systemtool_module_list_updated">รายการโมดูลอัพเดทแล้ว\nการเปลี่ยนแปลงจะมีผลหลังจากรีบูตโทรศัพท์</string>
-    <string name="systemtool_module_updated_notification_title">อัพเดทโมดูลแล้ว</string>
-    <string name="systemtool_module_updated_notification">รีบูตเพื่อให้การเปลี่ยงแปลงมีผล</string>
-    <string name="warning_systemtool_min_version">โมดุลนี้จำเป็นต้องใช้เวอร์ชั่น SystemTool ที่ใหม่กว่า (%d) และไม่สามารถเปิดใช้งานได้</string>
-    <string name="no_min_version_specified">โมดูลนี้ไม่ได้ระบุเวอร์ชั่น SystemTool ที่ต้องการ</string>
-    <string name="warning_min_version_too_low">โมดูลนี้ถูกสร้างสำหรับเวอร์ชั่น SystemTool %1$d แต่มีการเปลี่ยนแปลงทำให้เข้ากันไม่ได้ในเวอร์ชั่น %2$d จะถูกปิดใช้งาน</string>
+    <string name="no_sysoperation_modules_found">ไม่พบโมดูล!</string>
+    <string name="sysoperation_module_list_updated">รายการโมดูลอัพเดทแล้ว\nการเปลี่ยนแปลงจะมีผลหลังจากรีบูตโทรศัพท์</string>
+    <string name="sysoperation_module_updated_notification_title">อัพเดทโมดูลแล้ว</string>
+    <string name="sysoperation_module_updated_notification">รีบูตเพื่อให้การเปลี่ยงแปลงมีผล</string>
+    <string name="warning_sysoperation_min_version">โมดุลนี้จำเป็นต้องใช้เวอร์ชั่น SysOperation ที่ใหม่กว่า (%d) และไม่สามารถเปิดใช้งานได้</string>
+    <string name="no_min_version_specified">โมดูลนี้ไม่ได้ระบุเวอร์ชั่น SysOperation ที่ต้องการ</string>
+    <string name="warning_min_version_too_low">โมดูลนี้ถูกสร้างสำหรับเวอร์ชั่น SysOperation %1$d แต่มีการเปลี่ยนแปลงทำให้เข้ากันไม่ได้ในเวอร์ชั่น %2$d จะถูกปิดใช้งาน</string>
     <string name="module_launch">เรียกใช้งาน UI</string>
     <string name="module_download_updates">ดาวน์โหลด/อัพเดท</string>
     <string name="module_support">สนับสนุน</string>
@@ -127,7 +127,7 @@
     <string name="support_framework_label">เฟรมเวิร์ค/สนับสนุนการติดตั้ง</string>
     <string name="support_faq_label">ถามตอบ/ปัญหา</string>
     <string name="support_donate_label">บริจาค</string>
-    <string name="support_donate_description">หากคูรต้องการขอบคุณ SystemTool คุณสามารถบริจาค rovo89 ที่นี่</string>
+    <string name="support_donate_description">หากคูรต้องการขอบคุณ SysOperation คุณสามารถบริจาค rovo89 ที่นี่</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">ไม่สามารถเขียนบันทึกการใช้งานไปยังการ์ดความจำ:</string>

@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Gönder</string>
     <string name="menuSaveToSd">SD karta kaydet</string>
-    <string name="systemtool_not_active">SystemTool\'ın son sürümü şu anda etkin değil. Framework\'ü kurdunuz ve yeniden başlattınız mı?</string>
+    <string name="sysoperation_not_active">SysOperation\'ın son sürümü şu anda etkin değil. Framework\'ü kurdunuz ve yeniden başlattınız mı?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">SystemTool Framework için %s güncellemesi mevcut.</string>
+    <string name="welcome_framework_update_available">SysOperation Framework için %s güncellemesi mevcut.</string>
     <string name="modules_updates_available">Modül güncelleştirmeleri var</string>
 
     <!-- Navigation drawer items -->
@@ -32,24 +32,24 @@
     <string name="auto_flash_note">Tamama bastığınızda %s otomatik olarak yüklenmelidir.</string>
     <string name="reboot_confirmation">Yeniden başlatmak istiyor musunuz?</string>
     <string name="install_warning_title">Dikkatli olun!</string>
-    <string name="install_warning">Bazı durumlarda, SystemTool yüklendikten sonra cihazınız artık açılmayabilir.\n\nDaha önce \"soft brick\" ve \"bootloop\" gibi terimleri duymadıysanız veya bunlar hakkında bilginiz yoksa, SystemTool\'ı <b>YÜKLEMEYİN!</b>\n\nHer durumda, yeni bir yedekleme yapılması şiddetle önerilir.</string>
+    <string name="install_warning">Bazı durumlarda, SysOperation yüklendikten sonra cihazınız artık açılmayabilir.\n\nDaha önce \"soft brick\" ve \"bootloop\" gibi terimleri duymadıysanız veya bunlar hakkında bilginiz yoksa, SysOperation\'ı <b>YÜKLEMEYİN!</b>\n\nHer durumda, yeni bir yedekleme yapılması şiddetle önerilir.</string>
     <string name="dont_show_again">Bunu bir daha gösterme</string>
-    <string name="install_known_issue">Kullandığınız rom sürümü ile (\"%s\") bilinen bir uyumsuzluk sorunu var gibi görünüyor. SystemTool\'ı yüklemek işe yaramayabilir veya ağır problemlere neden olabilir. Konuyla ilgili ayrıntılar için burayı tıklayın.</string>
+    <string name="install_known_issue">Kullandığınız rom sürümü ile (\"%s\") bilinen bir uyumsuzluk sorunu var gibi görünüyor. SysOperation\'ı yüklemek işe yaramayabilir veya ağır problemlere neden olabilir. Konuyla ilgili ayrıntılar için burayı tıklayın.</string>
     <string name="installer_needs_update">%1$s güncellenmeli</string>
     <string name="known_issue_wrong_base_directory">yanlış taban dizini: %1$s</string>
     <string name="known_issue_missing_base_directory">eksik ana dizin</string>
-    <string name="framework_active">SystemTool Framework %s sürümü etkin.</string>
-    <string name="framework_not_active">SystemTool Framework %s sürümü yüklendi, ancak etkin değil. Ayrıntılar için lütfen kayıtları kontrol edin.</string>
-    <string name="framework_not_installed">SystemTool Framework yüklü değil.</string>
+    <string name="framework_active">SysOperation Framework %s sürümü etkin.</string>
+    <string name="framework_not_active">SysOperation Framework %s sürümü yüklendi, ancak etkin değil. Ayrıntılar için lütfen kayıtları kontrol edin.</string>
+    <string name="framework_not_installed">SysOperation Framework yüklü değil.</string>
     <string name="countdown">%1$s (%2$d)</string>
     <string name="flash_error_timeout">Zaman aşımı oluştu</string>
     <string name="flash_error_shell_died">İşlem beklenmedik şekilde iptal edildi</string>
     <string name="flash_error_invalid_zip">Yüklenebilir bir ZIP dosyası değil</string>
     <string name="flash_error_not_flashable_in_app">Bu dosya sadece kurtarma modu üzerinden yüklenebilir.</string>
     <string name="flash_error_default">%d hatası oluştu</string>
-    <string name="status">SystemTool Durumu</string>
-    <string name="systemtool_on_next_reboot">SystemTool Framework sonraki yeniden başlatmada etkinleştirilecek</string>
-    <string name="systemtool_off_next_reboot">SystemTool Framework sonraki yeniden başlatmada devre dışı bırakılacak</string>
+    <string name="status">SysOperation Durumu</string>
+    <string name="sysoperation_on_next_reboot">SysOperation Framework sonraki yeniden başlatmada etkinleştirilecek</string>
+    <string name="sysoperation_off_next_reboot">SysOperation Framework sonraki yeniden başlatmada devre dışı bırakılacak</string>
     <string name="show_outdated">Eski sürümleri göster</string>
     <string name="framework_device_info">Cihazınız</string>
     <string name="framework_install">Yükle</string>
@@ -71,20 +71,20 @@
     <string name="file_done">Bitti! Değişiklikler yeniden başlatıldığında etkinleşecek.</string>
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool modülü henüz etkinleştirilmedi</string>
+    <string name="module_is_not_activated_yet">SysOperation modülü henüz etkinleştirilmedi</string>
     <string name="module_is_not_activated_yet_detailed">%s yüklendi, ancak etkinleştirilmedi.</string>
     <string name="activate_and_reboot">Etkinleştir ve yeniden başlat</string>
     <string name="activate_only">Sadece etkinleştir</string>
-    <string name="module_activated">SystemTool modulü etkinleştirildi</string>
+    <string name="module_activated">SysOperation modulü etkinleştirildi</string>
     <string name="module_empty_description">(açıklama yok)</string>
     <string name="module_no_ui">Bu modül bir kullanıcı arabirimi sağlamaz</string>
-    <string name="no_systemtool_modules_found">SystemTool modülleri bulunamadı!</string>
-    <string name="systemtool_module_list_updated">SystemTool modül listesi güncellendi\nDeğişiklikler yeniden başlatıldığında etkinleşecektir</string>
-    <string name="systemtool_module_updated_notification_title">SystemTool modülü güncellendi</string>
-    <string name="systemtool_module_updated_notification">Değişiklikleri etkinleştirmek için yeniden başlat</string>
-    <string name="warning_systemtool_min_version">Bu modül yeni bir SystemTool sürümü (%d) gerektirir ve etkinleştirilemez.</string>
-    <string name="no_min_version_specified">Bu modül ihtiyaç duyduğu SystemTool sürümünü belirtmemektedir.</string>
-    <string name="warning_min_version_too_low">Bu modül SystemTool %1$d sürümü için oluşturuldu, ancak %2$d sürümündeki uyumsuz değişiklikler nedeniyle devre dışı bırakıldı.</string>
+    <string name="no_sysoperation_modules_found">SysOperation modülleri bulunamadı!</string>
+    <string name="sysoperation_module_list_updated">SysOperation modül listesi güncellendi\nDeğişiklikler yeniden başlatıldığında etkinleşecektir</string>
+    <string name="sysoperation_module_updated_notification_title">SysOperation modülü güncellendi</string>
+    <string name="sysoperation_module_updated_notification">Değişiklikleri etkinleştirmek için yeniden başlat</string>
+    <string name="warning_sysoperation_min_version">Bu modül yeni bir SysOperation sürümü (%d) gerektirir ve etkinleştirilemez.</string>
+    <string name="no_min_version_specified">Bu modül ihtiyaç duyduğu SysOperation sürümünü belirtmemektedir.</string>
+    <string name="warning_min_version_too_low">Bu modül SysOperation %1$d sürümü için oluşturuldu, ancak %2$d sürümündeki uyumsuz değişiklikler nedeniyle devre dışı bırakıldı.</string>
     <string name="module_launch">Arayüzü başlat</string>
     <string name="module_download_updates">İndir/Güncelle</string>
     <string name="module_support">Destek</string>
@@ -129,7 +129,7 @@
     <!-- Settings tab -->
     <string name="settings_group_download">İndir</string>
     <string name="settings_enable_downloads">İndirmeleri etkinleştir</string>
-    <string name="settings_enable_downloads_summary">SystemTool Installer\'ın güncellemeleri ve yeni modülleri kontrol etmesine izin ver</string>
+    <string name="settings_enable_downloads_summary">SysOperation Installer\'ın güncellemeleri ve yeni modülleri kontrol etmesine izin ver</string>
     <string name="settings_release_type">Gösterilecek sürümler</string>
     <string name="settings_group_experimental">Deneysel</string>
     <string name="settings_disable_resources">Kaynaklara erişimi kapat</string>
@@ -142,8 +142,8 @@
     <string name="settings_default_view">Varsayılan görünüm</string>
     <string name="open_drawer_summ">Başlangıçta gezinti çekmecesini otomatik aç</string>
     <string name="open_drawer">Gezinti çekmecesini otomatik aç</string>
-    <string name="skip_systemtoolminversion_check">\'systemtoolminversion\' kontrolünü atla</string>
-    <string name="skip_systemtoolminversion_check_summ">Modüller için minimum systemtool sürümü kontrolünü atla</string>
+    <string name="skip_sysoperationminversion_check">\'sysoperationminversion\' kontrolünü atla</string>
+    <string name="skip_sysoperationminversion_check_summ">Modüller için minimum sysoperation sürümü kontrolünü atla</string>
     <string name="chrome_custom_tabs">Chrome Özel Sekmeler</string>
     <string name="chrome_custom_tabs_summ">Bağlantıları dahili tarayıcıda aç</string>
     <string name="notify_module_update">Modül güncelleme bildirimini etkinleştir</string>
@@ -154,7 +154,7 @@
     <string name="support_framework_label">Framework/Yükleyici desteği</string>
     <string name="support_faq_label">SSS/Bilinen sorunlar</string>
     <string name="support_donate_label">Bağış yap</string>
-    <string name="support_donate_description">SystemTool için teşekkür etmek isterseniz, buradan rovo89\'a bağış yapabilirsiniz</string>
+    <string name="support_donate_description">SysOperation için teşekkür etmek isterseniz, buradan rovo89\'a bağış yapabilirsiniz</string>
 
     <!-- Logs tab  -->
     <string name="logs_load_failed">Kayıt okunamıyor:</string>

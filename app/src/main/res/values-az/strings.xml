@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Göndər</string>
     <string name="menuSaveToSd">Yaddaş kartında saxla</string>
-    <string name="systemtool_not_active">SystemTool\'in son versiyası aktiv deyil. Framework\'i yükləmisiz? vəya cihazı yenidən başlatmısız?</string>
+    <string name="sysoperation_not_active">SysOperation\'in son versiyası aktiv deyil. Framework\'i yükləmisiz? vəya cihazı yenidən başlatmısız?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">SystemTool Framework üçün yeniləmə mövcuddur.</string>
+    <string name="welcome_framework_update_available">SysOperation Framework üçün yeniləmə mövcuddur.</string>
 
     <!-- Navigation drawer items -->
 
@@ -20,14 +20,14 @@
     <!-- File operations -->
 
     <!-- Modules tab -->
-    <string name="module_is_not_activated_yet">SystemTool modulu hələ ki aktiv deyil</string>
+    <string name="module_is_not_activated_yet">SysOperation modulu hələ ki aktiv deyil</string>
     <string name="module_empty_description">(heç bir məlumatla təmin olunmayıb)</string>
     <string name="module_no_ui">Bu modul istifadəçi interfeysini təmin eləmir</string>
-    <string name="no_systemtool_modules_found">SystemTool modulları tapılmadı!</string>
-    <string name="systemtool_module_list_updated">SystemTool modul siyahısı yeniləndi\nDəyişikliklər yenidən başlamadan sonra aktiv olacaq</string>
-    <string name="warning_systemtool_min_version">Bu modul ən axırıncı SystemTool versiya (%d)\'sını tələb edir və bu aktiv oluna bilməz.</string>
-    <string name="no_min_version_specified">Bu modul lazım olan SystemTool versiyasını təyin edə bilmir.</string>
-    <string name="warning_min_version_too_low">Bu modul SystemTool versiya %1$d üçün yaradılıb, ancaq versiya %2$d\'ə uyğun gəlməyən dəyişiklikərə görə aradan qaldırıldı.</string>
+    <string name="no_sysoperation_modules_found">SysOperation modulları tapılmadı!</string>
+    <string name="sysoperation_module_list_updated">SysOperation modul siyahısı yeniləndi\nDəyişikliklər yenidən başlamadan sonra aktiv olacaq</string>
+    <string name="warning_sysoperation_min_version">Bu modul ən axırıncı SysOperation versiya (%d)\'sını tələb edir və bu aktiv oluna bilməz.</string>
+    <string name="no_min_version_specified">Bu modul lazım olan SysOperation versiyasını təyin edə bilmir.</string>
+    <string name="warning_min_version_too_low">Bu modul SysOperation versiya %1$d üçün yaradılıb, ancaq versiya %2$d\'ə uyğun gəlməyən dəyişiklikərə görə aradan qaldırıldı.</string>
     <string name="module_launch">Uİ\'ni başlat</string>
     <string name="module_download_updates">Yüklə/Yeniləmələr</string>
     <string name="module_support">Dəstək</string>

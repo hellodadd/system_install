@@ -4,10 +4,10 @@
     <!-- General/various strings -->
     <string name="menuSend">Enviar</string>
     <string name="menuSaveToSd">Salvar no cartão SD</string>
-    <string name="systemtool_not_active">A última versão do Framework não está ativa. Você instalou o Framework e reiniciou o dispositivo?</string>
+    <string name="sysoperation_not_active">A última versão do Framework não está ativa. Você instalou o Framework e reiniciou o dispositivo?</string>
 
     <!-- Welcome screen / main sections -->
-    <string name="welcome_framework_update_available">Uma atualização para o SystemTool Framework está disponível(%s).</string>
+    <string name="welcome_framework_update_available">Uma atualização para o SysOperation Framework está disponível(%s).</string>
     <string name="modules_updates_available">Atualização(ões) de módulos disponíveis</string>
 
     <!-- Navigation drawer items -->
@@ -31,15 +31,15 @@
     <string name="auto_flash_note">%s vai ser instalado automaticamente quando você apertar "OK".</string>
     <string name="reboot_confirmation">Deseja reinciar agora?</string>
     <string name="install_warning_title">Seja cuidadoso!</string>
-    <string name="install_warning">Em alguns casos, seu dispositivo pode não ligar depois de instalar o SystemTool.\n\nSe você nunca ouviu falar sobre \"soft brick\" e \"bootloop\" antes ou se você não sabe como se recuperar dessa situação, <b>NÃO</b> instale o SystemTool!\n\nEm qualquer caso, ter um backup recente é altamente recomendado.</string>
+    <string name="install_warning">Em alguns casos, seu dispositivo pode não ligar depois de instalar o SysOperation.\n\nSe você nunca ouviu falar sobre \"soft brick\" e \"bootloop\" antes ou se você não sabe como se recuperar dessa situação, <b>NÃO</b> instale o SysOperation!\n\nEm qualquer caso, ter um backup recente é altamente recomendado.</string>
     <string name="dont_show_again">Não mostre isso novamente</string>
-    <string name="install_known_issue">Este parece ser um erro conhecido (\"%s\") com sua ROM. Instalar o SystemTool pode não funcionar ou causar sérios problemas. Clique aqui para detalhes sobre esse erro.</string>
-    <string name="framework_active">SystemTool Framework versão %s está ativa.</string>
-    <string name="framework_not_active">O SystemTool Framework versão %s está instalado, mas não está ativo. Por favor, veja registros para detalhes.</string>
-    <string name="framework_not_installed">O SystemTool Framework não está instalado.</string>
-    <string name="status">Estado do SystemTool</string>
-    <string name="systemtool_on_next_reboot">O SystemTool Framework vai ser ativado no próximo reinício</string>
-    <string name="systemtool_off_next_reboot">O SystemTool Framework vai ser desativado no próximo reinício</string>
+    <string name="install_known_issue">Este parece ser um erro conhecido (\"%s\") com sua ROM. Instalar o SysOperation pode não funcionar ou causar sérios problemas. Clique aqui para detalhes sobre esse erro.</string>
+    <string name="framework_active">SysOperation Framework versão %s está ativa.</string>
+    <string name="framework_not_active">O SysOperation Framework versão %s está instalado, mas não está ativo. Por favor, veja registros para detalhes.</string>
+    <string name="framework_not_installed">O SysOperation Framework não está instalado.</string>
+    <string name="status">Estado do SysOperation</string>
+    <string name="sysoperation_on_next_reboot">O SysOperation Framework vai ser ativado no próximo reinício</string>
+    <string name="sysoperation_off_next_reboot">O SysOperation Framework vai ser desativado no próximo reinício</string>
 
     <!-- File operations -->
     <string name="root_failed">Falha ao obter acesso root.\n\nTenha certeza que seu dispositivo está enraizado corretamente e que você não bloqueou comandos shell.</string>
@@ -58,13 +58,13 @@
     <string name="module_activated">O módulo foi ativado</string>
     <string name="module_empty_description">(nenhuma descrição disponível)</string>
     <string name="module_no_ui">Este módulo não possui uma interface de usuário</string>
-    <string name="no_systemtool_modules_found">Nenhum módulo SystemTool foi encontrado!</string>
-    <string name="systemtool_module_list_updated">A lista de módulos foi atualizada\nAs alterações terão efeito ao reiniciar</string>
-    <string name="systemtool_module_updated_notification_title">Módulo atualizado</string>
-    <string name="systemtool_module_updated_notification">Reinicie para efetivar as mudanças</string>
-    <string name="warning_systemtool_min_version">Este módulo requer uma nova versão do SystemTool (%d) e não pode ser ativado.</string>
-    <string name="no_min_version_specified">Este módulo não especificou qual versão do SystemTool precisa.</string>
-    <string name="warning_min_version_too_low">Este módulo foi criado para a versão %1$d do SystemTool, mas devido à alterações incompatíveis na versão %2$d, foi desabilitado.</string>
+    <string name="no_sysoperation_modules_found">Nenhum módulo SysOperation foi encontrado!</string>
+    <string name="sysoperation_module_list_updated">A lista de módulos foi atualizada\nAs alterações terão efeito ao reiniciar</string>
+    <string name="sysoperation_module_updated_notification_title">Módulo atualizado</string>
+    <string name="sysoperation_module_updated_notification">Reinicie para efetivar as mudanças</string>
+    <string name="warning_sysoperation_min_version">Este módulo requer uma nova versão do SysOperation (%d) e não pode ser ativado.</string>
+    <string name="no_min_version_specified">Este módulo não especificou qual versão do SysOperation precisa.</string>
+    <string name="warning_min_version_too_low">Este módulo foi criado para a versão %1$d do SysOperation, mas devido à alterações incompatíveis na versão %2$d, foi desabilitado.</string>
     <string name="module_launch">Abrir interface de usuário</string>
     <string name="module_download_updates">Baixar/Atualizar</string>
     <string name="module_support">Ajuda</string>
@@ -130,7 +130,7 @@
     <string name="support_framework_label">Ajuda para o Framework/Installer</string>
     <string name="support_faq_label">FAQ/erros conhecidos</string>
     <string name="support_donate_label">Doar</string>
-    <string name="support_donate_description">Se você gostaria de dizer obrigado pelo SystemTool, você pode doar para rovo89 aqui</string>
+    <string name="support_donate_description">Se você gostaria de dizer obrigado pelo SysOperation, você pode doar para rovo89 aqui</string>
 
     <!-- Logs tab  -->
     <string name="logs_save_failed">Não foi possível gravar o registro no cartão SD:</string>
