@@ -208,14 +208,14 @@ public class DownloadsUtil {
                         return;
                     } else if (info.status == DownloadManager.STATUS_FAILED) {
                         dialog.cancel();
-                        SysOperationApp.runOnUiThread(new Runnable() {
+/*                        SystemToolApp.runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
                                 Toast.makeText(context,
                                         context.getString(R.string.download_view_failed, info.reason),
                                         Toast.LENGTH_LONG).show();
                             }
-                        });
+                        });*/
                         return;
                     } else if (info.status == DownloadManager.STATUS_SUCCESSFUL) {
                         dialog.dismiss();

@@ -201,15 +201,15 @@ public class RepoLoader extends OnlineLoader<RepoLoader> {
         final List<String> messages = new LinkedList<>();
 
         boolean hasChanged = downloadAndParseFiles(messages);
-        if (!messages.isEmpty()) {
-            SysOperationApp.runOnUiThread(new Runnable() {
+/*        if (!messages.isEmpty()) {
+            SystemToolApp.runOnUiThread(new Runnable() {
                 public void run() {
                     for (String message : messages) {
                         Toast.makeText(sApp, message, Toast.LENGTH_LONG).show();
                     }
                 }
             });
-        }
+        }*/
 
         return hasChanged;
     }
