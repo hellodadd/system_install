@@ -7,8 +7,8 @@ android {
         applicationId "com.system.android.systemtool.installer"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 43
-        versionName "3.1.5"
+        versionCode 44
+        versionName "3.1.6"
         archivesBaseName = "XposedInstaller_${versionName}".replace(' ', '_')
     }
 
@@ -30,7 +30,7 @@ dependencies {
     implementation 'com.android.support:support-v13:27.0.2'
     implementation 'com.afollestad.material-dialogs:commons:0.9.0.2'
     implementation 'se.emilsjolander:stickylistheaders:2.7.0'
-    implementation 'eu.chainfire:libsuperuser:1.0.0.201608240809'
+    //implementation 'eu.chainfire:libsuperuser:1.0.0.201608240809'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'de.psdev.licensesdialog:licensesdialog:1.8.1'
     compileOnly fileTree(dir: 'libs', include: ['*.jar'])
